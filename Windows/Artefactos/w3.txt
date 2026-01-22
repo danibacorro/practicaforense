@@ -1,0 +1,147 @@
+PS C:\Users\danib\Desktop\Windows\RAM> vol -f .\memdump.mem windows.netscan.NetScan
+Volatility 3 Framework 2.26.2
+Progress:  100.00               PDB scanning finished
+Offset  Proto   LocalAddr       LocalPort       ForeignAddr     ForeignPort     State   PID     Owner   Created
+
+0xc603bde861b0  TCPv4   192.168.122.58  139     0.0.0.0 0       LISTENING       4       System  2026-01-17 18:03:51.000000 UTC
+0xc603be6ca270  TCPv4   192.168.122.58  50358   150.171.69.254  443     CLOSED  -       -       N/A
+0xc603be7a9050  TCPv4   192.168.122.58  50351   74.243.166.110  443     CLOSED  -       -       N/A
+0xc603be7b38a0  TCPv4   192.168.122.58  22      192.168.122.1   44524   ESTABLISHED     -       -       N/A
+0xc603be871aa0  TCPv4   192.168.122.58  50348   13.107.4.254    443     CLOSED  -       -       N/A
+0xc603be92e620  UDPv4   0.0.0.0 5355    *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603be92e620  UDPv6   ::      5355    *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603be943aa0  TCPv4   192.168.122.58  49703   107.20.51.208   80      ESTABLISHED     -       -       N/A
+0xc603be9e2890  TCPv4   0.0.0.0 135     0.0.0.0 0       LISTENING       992     svchost.exe     2026-01-17 18:03:50.000000 UTC
+0xc603be9e2890  TCPv6   ::      135     ::      0       LISTENING       992     svchost.exe     2026-01-17 18:03:50.000000 UTC
+0xc603bebe58a0  TCPv4   192.168.122.58  49772   2.23.237.19     443     CLOSE_WAIT      -       -       N/A
+0xc603bec67ad0  TCPv4   192.168.122.58  50377   151.101.133.91  443     CLOSED  -       -       N/A
+0xc603bec76aa0  TCPv4   192.168.122.58  50354   150.171.64.254  443     CLOSED  -       -       N/A
+0xc603becaf310  TCPv4   0.0.0.0 49664   0.0.0.0 0       LISTENING       772     lsass.exe       2026-01-17 18:03:50.000000 UTC
+0xc603becaf470  TCPv4   0.0.0.0 49664   0.0.0.0 0       LISTENING       772     lsass.exe       2026-01-17 18:03:50.000000 UTC
+0xc603becaf470  TCPv6   ::      49664   ::      0       LISTENING       772     lsass.exe       2026-01-17 18:03:50.000000 UTC
+0xc603becaf5d0  TCPv4   0.0.0.0 135     0.0.0.0 0       LISTENING       992     svchost.exe     2026-01-17 18:03:50.000000 UTC
+0xc603becaf730  TCPv4   0.0.0.0 49665   0.0.0.0 0       LISTENING       612     wininit.exe     2026-01-17 18:03:50.000000 UTC
+0xc603becaf890  TCPv4   0.0.0.0 49666   0.0.0.0 0       LISTENING       1256    svchost.exe     2026-01-17 18:03:50.000000 UTC
+0xc603becaf9f0  TCPv4   0.0.0.0 49667   0.0.0.0 0       LISTENING       1732    svchost.exe     2026-01-17 18:03:50.000000 UTC
+0xc603becaf9f0  TCPv6   ::      49667   ::      0       LISTENING       1732    svchost.exe     2026-01-17 18:03:50.000000 UTC
+0xc603becb0650  TCPv4   0.0.0.0 49665   0.0.0.0 0       LISTENING       612     wininit.exe     2026-01-17 18:03:50.000000 UTC
+0xc603becb0650  TCPv6   ::      49665   ::      0       LISTENING       612     wininit.exe     2026-01-17 18:03:50.000000 UTC
+0xc603becb0d30  TCPv4   0.0.0.0 49666   0.0.0.0 0       LISTENING       1256    svchost.exe     2026-01-17 18:03:50.000000 UTC
+0xc603becb0d30  TCPv6   ::      49666   ::      0       LISTENING       1256    svchost.exe     2026-01-17 18:03:50.000000 UTC
+0xc603becb0e90  TCPv4   0.0.0.0 49667   0.0.0.0 0       LISTENING       1732    svchost.exe     2026-01-17 18:03:50.000000 UTC
+0xc603bee1b8a0  TCPv4   192.168.122.58  49777   13.107.226.254  443     CLOSE_WAIT      -       -       N/A
+0xc603bee1f010  TCPv4   192.168.122.58  49771   13.107.42.254   443     CLOSED  -       -       N/A
+0xc603bee28500  TCPv4   0.0.0.0 49672   0.0.0.0 0       LISTENING       3040    svchost.exe     2026-01-17 18:03:53.000000 UTC
+0xc603bee287c0  TCPv4   0.0.0.0 5040    0.0.0.0 0       LISTENING       4212    svchost.exe     2026-01-17 18:03:57.000000 UTC
+0xc603bee29580  TCPv4   0.0.0.0 49672   0.0.0.0 0       LISTENING       3040    svchost.exe     2026-01-17 18:03:53.000000 UTC
+0xc603bee29580  TCPv6   ::      49672   ::      0       LISTENING       3040    svchost.exe     2026-01-17 18:03:53.000000 UTC
+0xc603c008b1b0  TCPv4   0.0.0.0 49670   0.0.0.0 0       LISTENING       728     services.exe    2026-01-17 18:03:51.000000 UTC
+0xc603c008b310  TCPv4   0.0.0.0 22      0.0.0.0 0       LISTENING       2896    sshd.exe        2026-01-17 18:03:52.000000 UTC
+0xc603c008b310  TCPv6   ::      22      ::      0       LISTENING       2896    sshd.exe        2026-01-17 18:03:52.000000 UTC
+0xc603c008b470  TCPv4   0.0.0.0 22      0.0.0.0 0       LISTENING       2896    sshd.exe        2026-01-17 18:03:52.000000 UTC
+0xc603c008bcb0  TCPv4   0.0.0.0 49668   0.0.0.0 0       LISTENING       2500    spoolsv.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c008bcb0  TCPv6   ::      49668   ::      0       LISTENING       2500    spoolsv.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c008c650  TCPv4   0.0.0.0 49670   0.0.0.0 0       LISTENING       728     services.exe    2026-01-17 18:03:51.000000 UTC
+0xc603c008c650  TCPv6   ::      49670   ::      0       LISTENING       728     services.exe    2026-01-17 18:03:51.000000 UTC
+0xc603c008c910  TCPv4   0.0.0.0 49668   0.0.0.0 0       LISTENING       2500    spoolsv.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c008cd30  TCPv4   0.0.0.0 445     0.0.0.0 0       LISTENING       4       System  2026-01-17 18:03:51.000000 UTC
+0xc603c008cd30  TCPv6   ::      445     ::      0       LISTENING       4       System  2026-01-17 18:03:51.000000 UTC
+0xc603c032a750  UDPv4   127.0.0.1       55789   *       0               2776    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c03322c0  UDPv4   0.0.0.0 0       *       0               2760    svchost.exe     2026-01-17 18:03:52.000000 UTC
+0xc603c03322c0  UDPv6   ::      0       *       0               2760    svchost.exe     2026-01-17 18:03:52.000000 UTC
+0xc603c03daaa0  TCPv4   192.168.122.58  50364   13.107.51.254   443     CLOSED  -       -       N/A
+0xc603c0742880  TCPv4   192.168.122.58  50361   52.108.9.254    443     CLOSED  -       -       N/A
+0xc603c0a1eaa0  TCPv4   192.168.122.58  49675   4.207.247.137   443     ESTABLISHED     -       -       N/A
+0xc603c0ca93c0  UDPv4   0.0.0.0 55788   *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0ca93c0  UDPv6   ::      55788   *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0cb08f0  UDPv4   0.0.0.0 500     *       0               2760    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0cb0c10  UDPv4   0.0.0.0 4500    *       0               2760    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0cb26a0  UDPv4   0.0.0.0 500     *       0               2760    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0cb26a0  UDPv6   ::      500     *       0               2760    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0cb3af0  UDPv4   0.0.0.0 4500    *       0               2760    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0cb3af0  UDPv6   ::      4500    *       0               2760    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0ce9aa0  TCPv4   192.168.122.58  50363   150.171.110.113 443     CLOSE_WAIT      -       -       N/A
+0xc603c0d6d010  TCPv4   192.168.122.58  49709   23.46.86.99     80      ESTABLISHED     -       -       N/A
+0xc603c0e6a520  TCPv4   192.168.122.58  49775   204.79.197.222  443     CLOSED  -       -       N/A
+0xc603c0ea1aa0  TCPv4   192.168.122.58  49704   151.101.135.2   443     ESTABLISHED     -       -       N/A
+0xc603c0f30050  TCPv4   192.168.122.58  50350   13.107.18.254   443     CLOSED  -       -       N/A
+0xc603c0f64420  UDPv4   192.168.122.58  138     *       0               4       System  2026-01-17 18:03:51.000000 UTC
+0xc603c0f645b0  UDPv4   192.168.122.58  137     *       0               4       System  2026-01-17 18:03:51.000000 UTC
+0xc603c0f64740  UDPv4   0.0.0.0 5355    *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0f656e0  UDPv4   0.0.0.0 5353    *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0f656e0  UDPv6   ::      5353    *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0f65b90  UDPv4   0.0.0.0 5353    *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0f67300  UDPv4   0.0.0.0 0       *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c0f67300  UDPv6   ::      0       *       0               1612    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c112eaa0  TCPv4   127.0.0.1       49712   127.0.0.1       49711   ESTABLISHED     -       -       N/A
+0xc603c1197ac0  TCPv4   192.168.122.58  50356   9.235.21.27     443     CLOSED  -       -       N/A
+0xc603c11a0720  TCPv4   192.168.122.58  49897   151.101.133.44  443     CLOSED  -       -       N/A
+0xc603c12e0010  TCPv4   192.168.122.58  49691   150.171.85.254  443     CLOSE_WAIT      -       -       N/A
+0xc603c12e1520  TCPv4   127.0.0.1       49714   127.0.0.1       49713   ESTABLISHED     -       -       N/A
+0xc603c1395aa0  TCPv4   192.168.122.58  49867   104.17.208.240  443     CLOSED  -       -       N/A
+0xc603c1439aa0  TCPv4   192.168.122.58  50376   142.250.184.14  443     CLOSED  -       -       N/A
+0xc603c14cfaa0  TCPv4   192.168.122.58  49946   18.172.226.107  443     CLOSED  -       -       N/A
+0xc603c17b6a70  UDPv4   0.0.0.0 0       *       0               2760    svchost.exe     2026-01-17 18:03:51.000000 UTC
+0xc603c1991920  UDPv4   0.0.0.0 0       *       0               3040    svchost.exe     2026-01-17 18:03:53.000000 UTC
+0xc603c1991920  UDPv6   ::      0       *       0               3040    svchost.exe     2026-01-17 18:03:53.000000 UTC
+0xc603c1b43b50  UDPv4   0.0.0.0 0       *       0               3040    svchost.exe     2026-01-17 18:03:53.000000 UTC
+0xc603c1c97050  TCPv4   192.168.122.58  50360   13.107.246.254  443     CLOSE_WAIT      -       -       N/A
+0xc603c1d35ae0  TCPv4   192.168.122.58  49770   2.23.237.19     443     CLOSE_WAIT      -       -       N/A
+0xc603c1d4c010  TCPv4   192.168.122.58  50355   150.171.84.254  443     CLOSE_WAIT      -       -       N/A
+0xc603c1dc7aa0  TCPv4   127.0.0.1       49711   127.0.0.1       49712   ESTABLISHED     -       -       N/A
+0xc603c1e36a20  TCPv4   192.168.122.58  49769   13.107.138.254  443     CLOSED  -       -       N/A
+0xc603c1e39010  TCPv4   192.168.122.58  49702   107.20.51.208   80      ESTABLISHED     -       -       N/A
+0xc603c204aaa0  TCPv4   192.168.122.58  49705   107.20.51.208   80      ESTABLISHED     -       -       N/A
+0xc603c20b4d00  UDPv4   0.0.0.0 5050    *       0               4212    svchost.exe     2026-01-17 18:03:56.000000 UTC
+0xc603c2145ae0  TCPv4   192.168.122.58  50368   185.221.85.3    443     CLOSED  -       -       N/A
+0xc603c21db6b0  TCPv4   192.168.122.58  50352   172.202.65.254  443     CLOSED  -       -       N/A
+0xc603c2292a30  TCPv4   192.168.122.58  49687   13.107.246.254  443     CLOSE_WAIT      -       -       N/A
+0xc603c2293010  TCPv4   192.168.122.58  50357   52.123.129.254  443     CLOSED  -       -       N/A
+0xc603c2293520  TCPv4   127.0.0.1       49713   127.0.0.1       49714   ESTABLISHED     -       -       N/A
+0xc603c231a630  TCPv4   192.168.122.58  50383   20.50.80.209    443     CLOSED  -       -       N/A
+0xc603c23398a0  TCPv4   192.168.122.58  49773   150.171.64.254  443     CLOSED  -       -       N/A
+0xc603c233b8a0  TCPv4   192.168.122.58  49776   150.171.109.82  443     CLOSE_WAIT      -       -       N/A
+0xc603c2342010  TCPv4   192.168.122.58  50396   20.105.99.58    443     CLOSED  -       -       N/A
+0xc603c2347010  TCPv4   192.168.122.58  50362   13.107.42.254   443     CLOSED  -       -       N/A
+0xc603c234a010  TCPv4   192.168.122.58  50344   2.23.237.65     443     CLOSE_WAIT      -       -       N/A
+0xc603c234e830  TCPv4   192.168.122.58  50349   150.171.28.254  443     CLOSED  -       -       N/A
+0xc603c2351010  TCPv4   192.168.122.58  50346   204.79.197.222  443     CLOSED  -       -       N/A
+0xc603c23eb010  TCPv4   192.168.122.58  49738   157.240.243.60  443     ESTABLISHED     -       -       N/A
+0xc603c24da0b0  UDPv4   0.0.0.0 60522   *       0               1612    svchost.exe     2026-01-17 18:25:31.000000 UTC
+0xc603c24da0b0  UDPv6   ::      60522   *       0               1612    svchost.exe     2026-01-17 18:25:31.000000 UTC
+0xc603c26ec7b0  TCPv4   192.168.122.58  50359   13.107.6.163    443     CLOSED  -       -       N/A
+0xc603c2778820  UDPv6   fe80::59d9:cdcb:9f2d:2d0        1900    *       0               7468    svchost.exe     2026-01-17 18:06:27.000000 UTC
+0xc603c2778cd0  UDPv6   fe80::59d9:cdcb:9f2d:2d0        58856   *       0               7468    svchost.exe     2026-01-17 18:06:27.000000 UTC
+0xc603c2779180  UDPv6   ::1     1900    *       0               7468    svchost.exe     2026-01-17 18:06:27.000000 UTC
+0xc603c2779950  UDPv4   127.0.0.1       58859   *       0               7468    svchost.exe     2026-01-17 18:06:27.000000 UTC
+0xc603c277a8f0  UDPv4   192.168.122.58  58858   *       0               7468    svchost.exe     2026-01-17 18:06:27.000000 UTC
+0xc603c277b250  UDPv6   ::1     58857   *       0               7468    svchost.exe     2026-01-17 18:06:27.000000 UTC
+0xc603c277cb50  UDPv4   192.168.122.58  1900    *       0               7468    svchost.exe     2026-01-17 18:06:27.000000 UTC
+0xc603c2780390  UDPv4   127.0.0.1       1900    *       0               7468    svchost.exe     2026-01-17 18:06:27.000000 UTC
+0xc603c293d2c0  UDPv4   0.0.0.0 55924   *       0               6856    firefox.exe     2026-01-17 18:15:10.000000 UTC
+0xc603c2941780  UDPv4   0.0.0.0 52308   *       0               6856    firefox.exe     2026-01-17 18:15:24.000000 UTC
+0xc603c29445c0  UDPv4   0.0.0.0 5355    *       0               1612    svchost.exe     2026-01-17 18:33:50.000000 UTC
+0xc603c29445c0  UDPv6   ::      5355    *       0               1612    svchost.exe     2026-01-17 18:33:50.000000 UTC
+0xc603c2945240  UDPv4   0.0.0.0 5355    *       0               1612    svchost.exe     2026-01-17 18:33:50.000000 UTC
+0xc603c2a1eb40  UDPv4   0.0.0.0 63552   *       0               1612    svchost.exe     2026-01-17 18:17:08.000000 UTC
+0xc603c2a1eb40  UDPv6   ::      63552   *       0               1612    svchost.exe     2026-01-17 18:17:08.000000 UTC
+0xc603c2a1f950  UDPv4   0.0.0.0 53763   *       0               1612    svchost.exe     2026-01-17 18:17:08.000000 UTC
+0xc603c2a1f950  UDPv6   ::      53763   *       0               1612    svchost.exe     2026-01-17 18:17:08.000000 UTC
+0xc603c2a49d40  UDPv4   0.0.0.0 64885   *       0               6856    firefox.exe     2026-01-17 18:15:43.000000 UTC
+0xc603c2a555a0  UDPv4   0.0.0.0 49784   *       0               6856    firefox.exe     2026-01-17 18:15:27.000000 UTC
+0xc603c2a64af0  UDPv4   0.0.0.0 55664   *       0               6856    firefox.exe     2026-01-17 18:15:28.000000 UTC
+0xc603c2a7d7d0  UDPv4   0.0.0.0 63378   *       0               6856    firefox.exe     2026-01-17 18:15:30.000000 UTC
+0xc603c2ae1520  TCPv4   192.168.122.58  49948   18.196.239.206  443     CLOSED  -       -       N/A
+0xc603c2af6aa0  TCPv4   192.168.122.58  50397   20.105.99.58    443     CLOSED  -       -       N/A
+0xc603c3097aa0  TCPv4   192.168.122.58  50347   2.18.188.16     443     CLOSE_WAIT      -       -       N/A
+0xc603c30bfa80  TCPv4   192.168.122.58  50345   2.23.237.65     443     CLOSE_WAIT      -       -       N/A
+0xc603c32c15e0  UDPv4   0.0.0.0 57514   *       0               6856    firefox.exe     2026-01-17 18:15:16.000000 UTC
+0xc603c32c2a30  UDPv4   0.0.0.0 57424   *       0               6856    firefox.exe     2026-01-17 18:15:26.000000 UTC
+0xc603c32c3cf0  UDPv4   0.0.0.0 57423   *       0               6856    firefox.exe     2026-01-17 18:15:26.000000 UTC
+0xc603c32c5c30  UDPv4   0.0.0.0 49783   *       0               6856    firefox.exe     2026-01-17 18:15:26.000000 UTC
+0xc603c32ebaa0  TCPv4   192.168.122.58  50379   34.107.243.93   443     ESTABLISHED     -       -       N/A
+0xc603c335a010  TCPv4   192.168.122.58  50260   2.23.237.164    443     CLOSED  -       -       N/A
+0xc603c3474da0  UDPv4   0.0.0.0 57228   *       0               1612    svchost.exe     2026-01-17 18:25:29.000000 UTC
+0xc603c3474da0  UDPv6   ::      57228   *       0               1612    svchost.exe     2026-01-17 18:25:29.000000 UTC
+0xc603c347ed00  UDPv4   0.0.0.0 60523   *       0               6856    firefox.exe     2026-01-17 18:25:41.000000 UTC
+0xe788f5ba2aa0  TCPv4   192.168.122.58  50379   34.107.243.93   443     ESTABLISHED     -       -       N/A

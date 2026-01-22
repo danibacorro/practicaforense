@@ -1,0 +1,367 @@
+PS C:\Users\danib\Desktop\Linux> vol -f .\memoria.lime linux.sockstat | findstr "LISTEN"
+4026531840      systemd 1       1       29      0x8b2dc158e000  AF_UNIX STREAM  -       /run/systemd/private    5247    -       -       LISTEN  -
+4026531840      systemd 1       1       30      0x8b2dc158ec00  AF_UNIX STREAM  -       /run/systemd/userdb/io.systemd.DynamicUser      5248    -       -       LISTEN  -
+4026531840      systemd 1       1       31      0x8b2dc158fc00  AF_UNIX STREAM  -       /run/systemd/io.systemd.ManagedOOM      5249    -       -       LISTEN  -
+4026531840      systemd 1       1       41      0x8b2dc158c000  AF_UNIX STREAM  -       /run/systemd/io.systemd.Credentials     5263    -       -       LISTEN  -
+4026531840      systemd 1       1       45      0x8b2dc158f800  AF_UNIX STREAM  -       /run/systemd/journal/stdout     5266    -       -       LISTEN  -
+4026531840      systemd 1       1       59      0x8b2dc5198400  AF_UNIX STREAM  -       /run/systemd/io.systemd.sysext  5647    -       -       LISTEN  -
+4026531840      systemd 1       1       61      0x8b2dc5198800  AF_UNIX STREAM  -       /run/avahi-daemon/socket        5939    -       -       LISTEN  -
+4026531840      systemd 1       1       62      0x8b2dc519a800  AF_UNIX STREAM  -       /run/cups/cups.sock     5940    -       -       LISTEN  -
+4026531840      systemd 1       1       63      0x8b2dc519a400  AF_UNIX STREAM  -       /run/dbus/system_bus_socket     5941    -       -       LISTEN  -
+4026531840      systemd 1       1       64      0x8b2dc5199c00  AF_UNIX STREAM  -       /run/ssh-unix-local/socket      5942    -       -       LISTEN  -
+4026531840      systemd 1       1       66      0x8b2dc5199000  AF_UNIX STREAM  -       /run/systemd/io.systemd.Hostname        5944    -       -       LISTEN  -
+4026531840      systemd-journal 333     333     5       0x8b2dc158f800  AF_UNIX STREAM  -       /run/systemd/journal/stdout     5266    -       -       LISTEN  -
+4026531840      systemd-journal 333     333     9       0x8b2dc3853400  AF_UNIX STREAM  -       /run/systemd/journal/io.systemd.journal 4278    -       -       LISTEN  -
+4026531840      avahi-daemon    706     706     3       0x8b2dc5198800  AF_UNIX STREAM  -       /run/avahi-daemon/socket        5939    -       -       LISTEN  -
+4026531840      dbus-daemon     709     709     3       0x8b2dc519a400  AF_UNIX STREAM  -       /run/dbus/system_bus_socket     5941    -       -       LISTEN  -
+4026531840      avahi-daemon    762     762     3       0x8b2dc5198800  AF_UNIX STREAM  -       /run/avahi-daemon/socket        5939    -       -       LISTEN  -
+4026531840      dhcpcd  783     783     3       0x8b2dca141c00  AF_UNIX STREAM  -       /run/dhcpcd/enp1s0.sock 7409    -       -       LISTEN  -
+4026531840      dhcpcd  783     783     4       0x8b2dca141000  AF_UNIX STREAM  -       /run/dhcpcd/enp1s0.unpriv.sock  7410    -       -       LISTEN  -
+4026531840      cupsd   886     886     3       0x8b2dc519a800  AF_UNIX STREAM  -       /run/cups/cups.sock     5940    -       -       LISTEN  -
+4026531840      cupsd   886     886     6       0x8b2dc42a47c0  AF_INET6        STREAM  TCP     -       631     -       0       LISTEN  -
+4026531840      cupsd   886     886     7       0x8b2dc425a600  AF_INET STREAM  TCP     127.0.0.1       631     0.0.0.0 0       LISTEN  -
+4026531840      tgtd    889     889     5       0x8b2dc3c3b400  AF_UNIX STREAM  -       /var/run/tgtd/socket.0  7503    -       -       LISTEN  -
+4026531840      tgtd    889     889     6       0x8b2dcbfde880  AF_INET STREAM  TCP     0.0.0.0 3260    0.0.0.0 0       LISTEN  -
+4026531840      tgtd    889     889     7       0x8b2dcd90bd80  AF_INET6        STREAM  TCP     -       3260    -       0       LISTEN  -
+4026531840      sshd    897     897     6       0x8b2dc4259c80  AF_INET STREAM  TCP     0.0.0.0 22      0.0.0.0 0       LISTEN  -
+4026531840      sshd    897     897     7       0x8b2dc42a1480  AF_INET6        STREAM  TCP     -       22      -       0       LISTEN  -
+4026531840      gdm3    904     904     9       0x8b2dc1022c00  AF_UNIX STREAM  -       /run/gdm3/dbus/dbus-nbKbvGq3    9416    -       -       LISTEN  -
+4026531840      gdm3    904     904     10      0x8b2dc1023c00  AF_UNIX STREAM  -       /run/gdm3/dbus/dbus-i5ifyNp1    9417    -       -       LISTEN  -
+4026531840      pool-spawner    904     916     9       0x8b2dc1022c00  AF_UNIX STREAM  -       /run/gdm3/dbus/dbus-nbKbvGq3    9416    -       -       LISTEN  -
+4026531840      pool-spawner    904     916     10      0x8b2dc1023c00  AF_UNIX STREAM  -       /run/gdm3/dbus/dbus-i5ifyNp1    9417    -       -       LISTEN  -
+4026531840      gmain   904     917     9       0x8b2dc1022c00  AF_UNIX STREAM  -       /run/gdm3/dbus/dbus-nbKbvGq3    9416    -       -       LISTEN  -
+4026531840      gmain   904     917     10      0x8b2dc1023c00  AF_UNIX STREAM  -       /run/gdm3/dbus/dbus-i5ifyNp1    9417    -       -       LISTEN  -
+4026531840      gdbus   904     918     9       0x8b2dc1022c00  AF_UNIX STREAM  -       /run/gdm3/dbus/dbus-nbKbvGq3    9416    -       -       LISTEN  -
+4026531840      gdbus   904     918     10      0x8b2dc1023c00  AF_UNIX STREAM  -       /run/gdm3/dbus/dbus-i5ifyNp1    9417    -       -       LISTEN  -
+4026531840      systemd 1484    1484    10      0x8b2dc58c7800  AF_UNIX STREAM  -       /run/user/1000/bus      12410   -       -       LISTEN  -
+4026531840      systemd 1484    1484    25      0x8b2dc58c7c00  AF_UNIX STREAM  -       /run/user/1000/systemd/private  12398   -       -       LISTEN  -
+4026531840      systemd 1484    1484    34      0x8b2dc58c7400  AF_UNIX STREAM  -       /run/user/1000/gnupg/S.dirmngr  12413   -       -       LISTEN  -
+4026531840      systemd 1484    1484    35      0x8b2dc58c4000  AF_UNIX STREAM  -       /run/user/1000/gcr/ssh  12414   -       -       LISTEN  -
+4026531840      systemd 1484    1484    38      0x8b2dc58c4400  AF_UNIX STREAM  -       /run/user/1000/keyring/control  12419   -       -       LISTEN  -
+4026531840      systemd 1484    1484    39      0x8b2dc58c5400  AF_UNIX STREAM  -       /run/user/1000/gnupg/S.gpg-agent.browser        12420   -       -       LISTEN  -
+4026531840      systemd 1484    1484    40      0x8b2dc58dfc00  AF_UNIX STREAM  -       /run/user/1000/gnupg/S.gpg-agent.extra  12421   -       -       LISTEN  -
+4026531840      systemd 1484    1484    42      0x8b2dc58dcc00  AF_UNIX STREAM  -       /run/user/1000/gnupg/S.gpg-agent.ssh    12422   -       -       LISTEN  -
+4026531840      systemd 1484    1484    44      0x8b2dc58df000  AF_UNIX STREAM  -       /run/user/1000/gnupg/S.gpg-agent        12427   -       -       LISTEN  -
+4026531840      systemd 1484    1484    46      0x8b2dc58df800  AF_UNIX STREAM  -       /run/user/1000/gnupg/S.keyboxd  12429   -       -       LISTEN  -
+4026531840      systemd 1484    1484    48      0x8b2dc58dd400  AF_UNIX STREAM  -       /run/user/1000/pulse/native     12430   -       -       LISTEN  -
+4026531840      systemd 1484    1484    49      0x8b2dc58dc400  AF_UNIX STREAM  -       /run/user/1000/pipewire-0       12431   -       -       LISTEN  -
+4026531840      systemd 1484    1484    51      0x8b2dc58dc000  AF_UNIX STREAM  -       /run/user/1000/pipewire-0-manager       12432   -       -       LISTEN  -
+4026531840      systemd 1484    1484    52      0x8b2dc58df400  AF_UNIX STREAM  -       /run/user/1000/pk-debconf-socket        12433   -       -       LISTEN  -
+4026531840      systemd 1484    1484    53      0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      systemd 1484    1484    54      0x8b2dc58de800  AF_UNIX STREAM  -       /run/user/1000/openssh_agent    12435   -       -       LISTEN  -
+4026531840      dbus-daemon     1506    1506    3       0x8b2dc58c7800  AF_UNIX STREAM  -       /run/user/1000/bus      12410   -       -       LISTEN  -
+4026531840      pipewire        1508    1508    3       0x8b2dc58dc400  AF_UNIX STREAM  -       /run/user/1000/pipewire-0       12431   -       -       LISTEN  -
+4026531840      pipewire        1508    1508    4       0x8b2dc58dc000  AF_UNIX STREAM  -       /run/user/1000/pipewire-0-manager       12432   -       -       LISTEN  -
+4026531840      module-rt       1508    1516    3       0x8b2dc58dc400  AF_UNIX STREAM  -       /run/user/1000/pipewire-0       12431   -       -       LISTEN  -
+4026531840      module-rt       1508    1516    4       0x8b2dc58dc000  AF_UNIX STREAM  -       /run/user/1000/pipewire-0-manager       12432   -       -       LISTEN  -
+4026531840      data-loop.0     1508    1518    3       0x8b2dc58dc400  AF_UNIX STREAM  -       /run/user/1000/pipewire-0       12431   -       -       LISTEN  -
+4026531840      data-loop.0     1508    1518    4       0x8b2dc58dc000  AF_UNIX STREAM  -       /run/user/1000/pipewire-0-manager       12432   -       -       LISTEN  -
+4026531840      pipewire-pulse  1511    1511    3       0x8b2dc58dd400  AF_UNIX STREAM  -       /run/user/1000/pulse/native     12430   -       -       LISTEN  -
+4026531840      module-rt       1511    1521    3       0x8b2dc58dd400  AF_UNIX STREAM  -       /run/user/1000/pulse/native     12430   -       -       LISTEN  -
+4026531840      data-loop.0     1511    1529    3       0x8b2dc58dd400  AF_UNIX STREAM  -       /run/user/1000/pulse/native     12430   -       -       LISTEN  -
+4026531840      gnome-keyring-d 1512    1512    3       0x8b2dc58c4400  AF_UNIX STREAM  -       /run/user/1000/keyring/control  12419   -       -       LISTEN  -
+4026531840      gnome-keyring-d 1512    1512    9       0x8b2dc5ee9800  AF_UNIX STREAM  -       /run/user/1000/keyring/pkcs11   11512   -       -       LISTEN  -
+4026531840      gnome-keyring-d 1512    1512    11      0x8b2dc747cc00  AF_UNIX STREAM  -       /run/user/1000/keyring/ssh      10924   -       -       LISTEN  -
+4026531840      pool-spawner    1512    1514    3       0x8b2dc58c4400  AF_UNIX STREAM  -       /run/user/1000/keyring/control  12419   -       -       LISTEN  -
+4026531840      pool-spawner    1512    1514    9       0x8b2dc5ee9800  AF_UNIX STREAM  -       /run/user/1000/keyring/pkcs11   11512   -       -       LISTEN  -
+4026531840      pool-spawner    1512    1514    11      0x8b2dc747cc00  AF_UNIX STREAM  -       /run/user/1000/keyring/ssh      10924   -       -       LISTEN  -
+4026531840      gmain   1512    1515    3       0x8b2dc58c4400  AF_UNIX STREAM  -       /run/user/1000/keyring/control  12419   -       -       LISTEN  -
+4026531840      gmain   1512    1515    9       0x8b2dc5ee9800  AF_UNIX STREAM  -       /run/user/1000/keyring/pkcs11   11512   -       -       LISTEN  -
+4026531840      gmain   1512    1515    11      0x8b2dc747cc00  AF_UNIX STREAM  -       /run/user/1000/keyring/ssh      10924   -       -       LISTEN  -
+4026531840      gdbus   1512    1517    3       0x8b2dc58c4400  AF_UNIX STREAM  -       /run/user/1000/keyring/control  12419   -       -       LISTEN  -
+4026531840      gdbus   1512    1517    9       0x8b2dc5ee9800  AF_UNIX STREAM  -       /run/user/1000/keyring/pkcs11   11512   -       -       LISTEN  -
+4026531840      gdbus   1512    1517    11      0x8b2dc747cc00  AF_UNIX STREAM  -       /run/user/1000/keyring/ssh      10924   -       -       LISTEN  -
+4026531840      timer   1512    1519    3       0x8b2dc58c4400  AF_UNIX STREAM  -       /run/user/1000/keyring/control  12419   -       -       LISTEN  -
+4026531840      timer   1512    1519    9       0x8b2dc5ee9800  AF_UNIX STREAM  -       /run/user/1000/keyring/pkcs11   11512   -       -       LISTEN  -
+4026531840      timer   1512    1519    11      0x8b2dc747cc00  AF_UNIX STREAM  -       /run/user/1000/keyring/ssh      10924   -       -       LISTEN  -
+4026531840      gcr-ssh-agent   1590    1590    3       0x8b2dc58c4000  AF_UNIX STREAM  -       /run/user/1000/gcr/ssh  12414   -       -       LISTEN  -
+4026531840      pool-spawner    1590    1596    3       0x8b2dc58c4000  AF_UNIX STREAM  -       /run/user/1000/gcr/ssh  12414   -       -       LISTEN  -
+4026531840      gmain   1590    1597    3       0x8b2dc58c4000  AF_UNIX STREAM  -       /run/user/1000/gcr/ssh  12414   -       -       LISTEN  -
+4026531840      ssh-agent       1593    1593    3       0x8b2dc58de800  AF_UNIX STREAM  -       /run/user/1000/openssh_agent    12435   -       -       LISTEN  -
+4026531840      gnome-session-b 1619    1619    11      0x8b2dc1f3ac00  AF_UNIX STREAM  -               12686   -       -       LISTEN  -
+4026531840      gnome-session-b 1619    1619    12      0x8b2dc1f3a000  AF_UNIX STREAM  -       /tmp/.ICE-unix/1619     12687   -       -       LISTEN  -
+4026531840      pool-spawner    1619    1626    11      0x8b2dc1f3ac00  AF_UNIX STREAM  -               12686   -       -       LISTEN  -
+4026531840      pool-spawner    1619    1626    12      0x8b2dc1f3a000  AF_UNIX STREAM  -       /tmp/.ICE-unix/1619     12687   -       -       LISTEN  -
+4026531840      gmain   1619    1627    11      0x8b2dc1f3ac00  AF_UNIX STREAM  -               12686   -       -       LISTEN  -
+4026531840      gmain   1619    1627    12      0x8b2dc1f3a000  AF_UNIX STREAM  -       /tmp/.ICE-unix/1619     12687   -       -       LISTEN  -
+4026531840      gdbus   1619    1629    11      0x8b2dc1f3ac00  AF_UNIX STREAM  -               12686   -       -       LISTEN  -
+4026531840      gdbus   1619    1629    12      0x8b2dc1f3a000  AF_UNIX STREAM  -       /tmp/.ICE-unix/1619     12687   -       -       LISTEN  -
+4026531840      dconf worker    1619    1631    11      0x8b2dc1f3ac00  AF_UNIX STREAM  -               12686   -       -       LISTEN  -
+4026531840      dconf worker    1619    1631    12      0x8b2dc1f3a000  AF_UNIX STREAM  -       /tmp/.ICE-unix/1619     12687   -       -       LISTEN  -
+4026531840      dbus-daemon     1661    1661    4       0x8b2dc766a000  AF_UNIX STREAM  -       /run/user/1000/at-spi/bus       10978   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1662    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1662    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1662    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      pool-spawner    1662    1664    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      pool-spawner    1662    1664    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      pool-spawner    1662    1664    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gmain   1662    1665    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      gmain   1662    1665    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gmain   1662    1665    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gdbus   1662    1667    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      gdbus   1662    1667    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gdbus   1662    1667    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      dconf worker    1662    1668    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      dconf worker    1662    1668    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      dconf worker    1662    1668    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      JS Helper       1662    1669    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      JS Helper       1662    1669    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      JS Helper       1662    1669    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      JS Helper       1662    1670    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      JS Helper       1662    1670    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      JS Helper       1662    1670    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      JS Helper       1662    1671    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      JS Helper       1662    1671    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      JS Helper       1662    1671    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      JS Helper       1662    1672    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      JS Helper       1662    1672    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      JS Helper       1662    1672    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      KMS thread      1662    1674    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      KMS thread      1662    1674    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      KMS thread      1662    1674    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      llvmpipe-0      1662    1676    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      llvmpipe-0      1662    1676    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      llvmpipe-0      1662    1676    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      llvmpipe-1      1662    1677    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      llvmpipe-1      1662    1677    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      llvmpipe-1      1662    1677    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      llvmpipe-2      1662    1678    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      llvmpipe-2      1662    1678    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      llvmpipe-2      1662    1678    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      llvmpipe-3      1662    1679    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      llvmpipe-3      1662    1679    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      llvmpipe-3      1662    1679    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1680    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1680    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1680    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1681    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1681    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1681    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1682    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1682    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1682    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1683    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1683    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-shell     1662    1683    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-s:disk$0  1662    1684    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      gnome-s:disk$0  1662    1684    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      gnome-s:disk$0  1662    1684    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      Mutter Input Th 1662    1685    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      Mutter Input Th 1662    1685    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      Mutter Input Th 1662    1685    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      [pango] fontcon 1662    2062    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      [pango] fontcon 1662    2062    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      [pango] fontcon 1662    2062    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      module-rt       1662    2078    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      module-rt       1662    2078    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      module-rt       1662    2078    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      threaded-ml     1662    4295    42      0x8b2dc1f1c400  AF_UNIX STREAM  -       /tmp/.X11-unix/X1       13679   -       -       LISTEN  -
+4026531840      threaded-ml     1662    4295    44      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      threaded-ml     1662    4295    45      0x8b2dc1f1d400  AF_UNIX STREAM  -       /run/user/1000/wayland-0        13680   -       -       LISTEN  -
+4026531840      Xwayland        1736    1736    4       0x8b2dc66f1800  AF_UNIX STREAM  -               13676   -       -       LISTEN  -
+4026531840      Xwayland        1736    1736    5       0x8b2dc66f1000  AF_UNIX STREAM  -       /tmp/.X11-unix/X0       13677   -       -       LISTEN  -
+4026531840      Xwayland        1736    1736    7       0x8b2dc66f2000  AF_UNIX STREAM  -               13678   -       -       LISTEN  -
+4026531840      ibus-daemon     1744    1744    8       0x8b2dc7074400  AF_UNIX STREAM  -       /home/dani/.cache/ibus/dbus-se8k2ELd    11162   -       -       LISTEN  -
+4026531840      pool-spawner    1744    1799    8       0x8b2dc7074400  AF_UNIX STREAM  -       /home/dani/.cache/ibus/dbus-se8k2ELd    11162   -       -       LISTEN  -
+4026531840      gmain   1744    1800    8       0x8b2dc7074400  AF_UNIX STREAM  -       /home/dani/.cache/ibus/dbus-se8k2ELd    11162   -       -       LISTEN  -
+4026531840      gdbus   1744    1834    8       0x8b2dc7074400  AF_UNIX STREAM  -       /home/dani/.cache/ibus/dbus-se8k2ELd    11162   -       -       LISTEN  -
+4026531840      nc      2559    2559    3       0x8b2df5de9c80  AF_INET STREAM  TCP     0.0.0.0 14952   0.0.0.0 0       LISTEN  filter_type=reuseport_filter,bpf_filter_type=cBPF
+4026531840      firefox-esr     2560    2560    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      AsyncSi~lThread 2560    2564    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      pool-spawner    2560    2568    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      gmain   2560    2569    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WaylandProxy    2560    2571    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      gdbus   2560    2573    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      dconf worker    2560    2574    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      glean.dispatche 2560    2575    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      IPC I/O Parent  2560    2577    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Timer   2560    2578    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Netlink Monitor 2560    2579    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Socket Thread   2560    2580    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      IPDL Background 2560    2581    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      [pango] fontcon 2560    2590    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      HTML5 Parser    2560    2593    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      StyleThread#1   2560    2594    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      StyleThread#2   2560    2595    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      JS Watchdog     2560    2597    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Cache2 I/O      2560    2599    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Cookie  2560    2600    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      TaskCon~ller #0 2560    2602    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      TaskCon~ller #1 2560    2603    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      TaskCon~ller #2 2560    2604    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      TaskCon~ller #3 2560    2605    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Worker Launcher 2560    2609    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      QuotaManager IO 2560    2610    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Softwar~cThread 2560    2611    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Renderer        2560    2612    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRWorker#0      2560    2613    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRWorker#1      2560    2614    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRWorker#2      2560    2615    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRWorker#3      2560    2616    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRWorkerLP#0    2560    2617    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRWorkerLP#1    2560    2618    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRWorkerLP#2    2560    2619    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRWorkerLP#3    2560    2620    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WrGlyph~terizer 2560    2621    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Compositor      2560    2622    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      CanvasRenderer  2560    2623    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      ImageIO 2560    2624    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Permission      2560    2625    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      SandboxReporter 2560    2626    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      IPC Launch      2560    2627    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker2628    2560    2639    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      GMPThread       2560    2649    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      TRR Background  2560    2651    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      ImageBridgeChld 2560    2652    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker2647    2560    2653    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      ProcessHangMon  2560    2655    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      SwComposite     2560    2657    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRScene~ilder#1 2560    2659    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRScene~derLP#1 2560    2660    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      WRRende~ckend#1 2560    2661    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      AudioIP~ver RPC 2560    2682    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      AudioIP~allback 2560    2683    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      AudioIP~ion RPC 2560    2684    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker2654    2560    2685    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:p~lite #1 2560    2692    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:7~lite #2 2560    2694    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      URL Classifier  2560    2695    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:c~lite #3 2560    2702    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker2704    2560    2716    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:p~lite #4 2560    2725    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker2726    2560    2727    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      RemoteLzyStream 2560    2730    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      DOM Worker      2560    2732    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:p~lite #5 2560    2743    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:c~lite #6 2560    2750    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:p~lite #7 2560    2752    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:d~lite #8 2560    2760    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      MemoryPoller    2560    2761    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      LS Thread       2560    2762    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker2771    2560    2777    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      glean.mps       2560    2782    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker2785    2560    2786    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      llvmpipe-0      2560    2901    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      llvmpipe-1      2560    2902    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      llvmpipe-2      2560    2903    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      llvmpipe-3      2560    2904    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      CanvasRenderer  2560    2905    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      CanvasRenderer  2560    2906    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      CanvasRenderer  2560    2907    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      CanvasRenderer  2560    2908    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      firefox:disk$0  2560    2909    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:p~lite #9 2560    2946    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      sqldb:f~ite #10 2560    2947    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      speechd init    2560    2999    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      threaded-ml     2560    3872    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker4182    2560    4183    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker4186    2560    4189    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      FSBroker4188    2560    4190    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      DOM Worker      2560    4307    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      DNS Res~ver #64 2560    4537    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      BgIOThr~Pool #5 2560    4538    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      Backgro~ool #14 2560    4539    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      DNS Res~ver #65 2560    4541    12      0x8b2dc7687800  AF_UNIX STREAM  -       /run/user/1000/wayland-proxy-2560       17852   -       -       LISTEN  -
+4026531840      speech-dispatch 3000    3000    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      gmain   3000    3057    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      speech-dispatch 3000    3058    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      speech-dispatch 3000    3059    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      speech-dispatch 3000    3060    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      sd_espeak-ng    3013    3013    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      sd_dummy        3030    3030    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      sd_dummy        3030    3031    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      threaded-ml     3030    3032    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      sd_espeak-ng    3033    3033    3       0x8b2dc58dd800  AF_UNIX STREAM  -       /run/user/1000/speech-dispatcher/speechd.sock   12434   -       -       LISTEN  -
+4026531840      Telegram        4578    4578    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4578    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4578    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      pool-spawner    4578    4579    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      pool-spawner    4578    4579    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      pool-spawner    4578    4579    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      gmain   4578    4580    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      gmain   4578    4580    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      gmain   4578    4580    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      gdbus   4578    4583    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      gdbus   4578    4583    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      gdbus   4578    4583    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      QDBusConnection 4578    4584    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      QDBusConnection 4578    4584    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      QDBusConnection 4578    4584    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      dconf worker    4578    4586    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      dconf worker    4578    4586    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      dconf worker    4578    4586    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      [pango] fontcon 4578    4587    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      [pango] fontcon 4578    4587    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      [pango] fontcon 4578    4587    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      WaylandEventThr 4578    4588    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      WaylandEventThr 4578    4588    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      WaylandEventThr 4578    4588    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      WaylandEventThr 4578    4589    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      WaylandEventThr 4578    4589    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      WaylandEventThr 4578    4589    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Concurrent Time 4578    4591    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Concurrent Time 4578    4591    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Concurrent Time 4578    4591    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      threaded-ml     4578    4592    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      threaded-ml     4578    4592    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      threaded-ml     4578    4592    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4594    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4594    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4594    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      QThread 4578    4598    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      QThread 4578    4598    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      QThread 4578    4598    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      QThread 4578    4599    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      QThread 4578    4599    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      QThread 4578    4599    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      QThread 4578    4600    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      QThread 4578    4600    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      QThread 4578    4600    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      MTP Main Sessio 4578    4622    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      MTP Main Sessio 4578    4622    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      MTP Main Sessio 4578    4622    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      llvmpipe-0      4578    4625    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      llvmpipe-0      4578    4625    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      llvmpipe-0      4578    4625    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      llvmpipe-1      4578    4626    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      llvmpipe-1      4578    4626    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      llvmpipe-1      4578    4626    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      llvmpipe-2      4578    4627    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      llvmpipe-2      4578    4627    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      llvmpipe-2      4578    4627    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      llvmpipe-3      4578    4628    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      llvmpipe-3      4578    4628    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      llvmpipe-3      4578    4628    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4629    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4629    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4629    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4630    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4630    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4630    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4631    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4631    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4631    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4632    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4632    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4632    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegra:disk$0  4578    4633    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegra:disk$0  4578    4633    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegra:disk$0  4578    4633    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4634    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4634    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4634    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      MTP Download Se 4578    4635    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      MTP Download Se 4578    4635    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      MTP Download Se 4578    4635    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4638    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4638    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4638    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4639    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4639    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4639    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4640    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4640    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4640    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -
+4026531840      Telegram        4578    4641    28      0x8b2dc74e3c00  AF_UNIX STREAM  -               52086   -       -       LISTEN  -
+4026531840      Telegram        4578    4641    55      0x8b2dc7049800  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4601   52847   -       -       LISTEN  -
+4026531840      Telegram        4578    4641    70      0x8b2dc705a000  AF_UNIX STREAM  -       /tmp/Z8TEuyx9HG3GRZQUXCC77G36-TD-webview-4612   53473   -       -       LISTEN  -

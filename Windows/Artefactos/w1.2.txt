@@ -1,0 +1,138 @@
+PS C:\Users\danib\Desktop\Windows\RAM> vol -f .\memdump.mem windows.psscan.PsScan
+Volatility 3 Framework 2.26.2
+Progress:  100.00               PDB scanning finished
+PID     PPID    ImageFileName   Offset(V)       Threads Handles SessionId       Wow64   CreateTime      ExitTime        File output
+
+4292    4460    Notepad.exe     0xb801801ac0c0  17      -       1       False   2026-01-17 18:17:00.000000 UTC  N/A     Disabled
+5996    728     svchost.exe     0xc603bdf05080  10      -       0       False   2026-01-17 18:05:51.000000 UTC  N/A     Disabled
+6956    728     svchost.exe     0xc603bdf06080  1       -       0       False   2026-01-17 18:05:52.000000 UTC  N/A     Disabled
+92      4       Registry        0xc603bdf9c080  4       -       N/A     False   2026-01-17 18:03:47.000000 UTC  N/A     Disabled
+6544    6856    firefox.exe     0xc603be808080  5       -       1       False   2026-01-17 18:05:21.000000 UTC  N/A     Disabled
+7900    4460    Taskmgr.exe     0xc603be8640c0  0       -       1       False   2026-01-17 18:07:02.000000 UTC  2026-01-17 18:07:08.000000 UTC  Disabled
+3448    2896    sshd.exe        0xc603be89b080  1       -       0       False   2026-01-17 18:07:17.000000 UTC  N/A     Disabled
+5512    900     dllhost.exe     0xc603be89c080  5       -       1       False   2026-01-17 18:04:00.000000 UTC  N/A     Disabled
+5872    900     WidgetService.  0xc603be8a0080  3       -       1       False   2026-01-17 18:03:59.000000 UTC  N/A     Disabled
+832     6856    crashhelper.ex  0xc603be8a1080  2       -       1       False   2026-01-17 18:05:20.000000 UTC  N/A     Disabled
+2164    6856    firefox.exe     0xc603bed03080  19      -       1       False   2026-01-17 18:05:24.000000 UTC  N/A     Disabled
+1084    728     svchost.exe     0xc603bef91080  3       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1140    728     svchost.exe     0xc603befa4080  1       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1612    728     svchost.exe     0xc603befda080  8       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+3916    728     svchost.exe     0xc603befdb080  3       -       0       False   2026-01-17 18:03:54.000000 UTC  N/A     Disabled
+1732    728     svchost.exe     0xc603c0129080  5       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+6904    3448    sshd.exe        0xc603c01d10c0  1       -       0       False   2026-01-17 18:07:19.000000 UTC  N/A     Disabled
+772     612     lsass.exe       0xc603c04321c0  7       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+392     4       smss.exe        0xc603c063b040  2       -       N/A     False   2026-01-17 18:03:48.000000 UTC  N/A     Disabled
+860     704     fontdrvhost.ex  0xc603c06b8080  5       -       1       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+900     728     svchost.exe     0xc603c06bd080  13      -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+852     612     fontdrvhost.ex  0xc603c06c20c0  5       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+628     604     csrss.exe       0xc603c0704140  13      -       1       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+552     900     RuntimeBroker.  0xc603c073a0c0  1       -       1       False   2026-01-17 18:05:22.000000 UTC  N/A     Disabled
+4888    728     NisSrv.exe      0xc603c08cc080  3       -       0       False   2026-01-17 18:03:57.000000 UTC  N/A     Disabled
+1404    728     svchost.exe     0xc603c0a120c0  10      -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1488    728     svchost.exe     0xc603c0a3e080  3       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+2040    728     svchost.exe     0xc603c0b48080  2       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2412    728     svchost.exe     0xc603c0baa080  3       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2500    728     spoolsv.exe     0xc603c0bef0c0  7       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+1844    728     svchost.exe     0xc603c0c0e080  5       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1852    728     svchost.exe     0xc603c0c0f080  2       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+2012    728     svchost.exe     0xc603c0c11080  2       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+1936    4       MemCompression  0xc603c0c4d040  30      -       N/A     False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+2532    728     svchost.exe     0xc603c0c7a080  12      -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2580    728     svchost.exe     0xc603c0c7d080  3       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+540     528     csrss.exe       0xc603c0ceb140  10      -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+3040    728     svchost.exe     0xc603c0d550c0  3       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+6408    6856    firefox.exe     0xc603c0d63080  5       -       1       False   2026-01-17 18:05:20.000000 UTC  N/A     Disabled
+444     728     svchost.exe     0xc603c0f16080  4       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1384    728     svchost.exe     0xc603c0f7a080  2       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+1664    728     svchost.exe     0xc603c0f92080  5       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2212    728     svchost.exe     0xc603c0fa50c0  4       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2068    728     svchost.exe     0xc603c0faa080  1       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+3364    6856    firefox.exe     0xc603c1032080  5       -       1       False   2026-01-17 18:13:47.000000 UTC  N/A     Disabled
+5328    6856    firefox.exe     0xc603c104e0c0  19      -       1       False   2026-01-17 18:05:24.000000 UTC  N/A     Disabled
+2284    2124    audiodg.exe     0xc603c109a080  4       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2292    728     svchost.exe     0xc603c109d080  1       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2304    728     svchost.exe     0xc603c109e080  2       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+6856    6912    firefox.exe     0xc603c124e080  63      -       1       False   2026-01-17 18:05:20.000000 UTC  N/A     Disabled
+4460    4428    explorer.exe    0xc603c1261080  64      -       1       False   2026-01-17 18:03:56.000000 UTC  N/A     Disabled
+3760    728     svchost.exe     0xc603c1281080  2       -       1       False   2026-01-17 18:03:56.000000 UTC  N/A     Disabled
+3456    728     svchost.exe     0xc603c1282080  3       -       1       False   2026-01-17 18:03:56.000000 UTC  N/A     Disabled
+412     1488    sihost.exe      0xc603c1283080  8       -       1       False   2026-01-17 18:03:56.000000 UTC  N/A     Disabled
+3240    728     svchost.exe     0xc603c1284080  3       -       0       False   2026-01-17 18:03:55.000000 UTC  N/A     Disabled
+4428    704     userinit.exe    0xc603c12a2080  0       -       1       False   2026-01-17 18:03:56.000000 UTC  2026-01-17 18:04:20.000000 UTC  Disabled
+4636    728     svchost.exe     0xc603c12a3080  4       -       1       False   2026-01-17 18:03:57.000000 UTC  N/A     Disabled
+4212    728     svchost.exe     0xc603c12a4080  8       -       0       False   2026-01-17 18:03:56.000000 UTC  N/A     Disabled
+4120    1256    taskhostw.exe   0xc603c12a6080  8       -       1       False   2026-01-17 18:03:56.000000 UTC  N/A     Disabled
+4668    728     svchost.exe     0xc603c12a7080  1       -       0       False   2026-01-17 18:03:57.000000 UTC  N/A     Disabled
+4100    1256    MicrosoftEdgeU  0xc603c12a8080  4       -       0       True    2026-01-17 18:03:56.000000 UTC  N/A     Disabled
+2468    728     svchost.exe     0xc603c12a9080  2       -       1       False   2026-01-17 18:03:56.000000 UTC  N/A     Disabled
+7508    5236    cmd.exe 0xc603c12ae080  1       -       0       False   2026-01-17 18:07:19.000000 UTC  N/A     Disabled
+3368    728     svchost.exe     0xc603c12b0080  6       -       0       False   2026-01-17 18:03:55.000000 UTC  N/A     Disabled
+2932    728     svchost.exe     0xc603c136f080  10      -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2748    728     svchost.exe     0xc603c1371080  14      -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2736    728     svchost.exe     0xc603c1373080  5       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2760    728     svchost.exe     0xc603c1385080  5       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2776    728     svchost.exe     0xc603c1388080  5       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2828    728     MpDefenderCore  0xc603c13a8080  9       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2884    728     ssh-agent.exe   0xc603c13aa080  2       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2860    728     svchost.exe     0xc603c13ae0c0  5       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2896    728     sshd.exe        0xc603c13b0080  2       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2904    728     svchost.exe     0xc603c13e10c0  3       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2940    728     MsMpEng.exe     0xc603c13e4080  24      -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+2956    728     svchost.exe     0xc603c13e5080  5       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+1800    728     svchost.exe     0xc603c14a8080  4       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1808    728     svchost.exe     0xc603c14a9080  4       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+5204    728     WUDFHost.exe    0xc603c14e3080  6       -       0       False   2026-01-17 18:08:30.000000 UTC  N/A     Disabled
+1300    728     svchost.exe     0xc603c1557080  1       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1308    728     svchost.exe     0xc603c1558080  1       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1324    728     svchost.exe     0xc603c155b080  1       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1348    728     svchost.exe     0xc603c155c080  3       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+7740    728     svchost.exe     0xc603c1611080  2       -       0       False   2026-01-17 18:06:04.000000 UTC  N/A     Disabled
+992     728     svchost.exe     0xc603c16c1080  8       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+2124    728     svchost.exe     0xc603c179a080  9       -       0       False   2026-01-17 18:03:51.000000 UTC  N/A     Disabled
+704     604     winlogon.exe    0xc603c1815080  3       -       1       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+728     612     services.exe    0xc603c181d1c0  5       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1256    728     svchost.exe     0xc603c1844080  7       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+3712    728     svchost.exe     0xc603c19b80c0  5       -       0       False   2026-01-17 18:03:52.000000 UTC  N/A     Disabled
+524     704     dwm.exe 0xc603c1a36080  15      -       1       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+1072    728     svchost.exe     0xc603c1a77080  2       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+612     528     wininit.exe     0xc603c1aab080  2       -       0       False   2026-01-17 18:03:50.000000 UTC  N/A     Disabled
+5420    728     svchost.exe     0xc603c1ce90c0  2       -       1       False   2026-01-17 18:03:58.000000 UTC  N/A     Disabled
+5288    728     svchost.exe     0xc603c1cea080  1       -       0       False   2026-01-17 18:03:58.000000 UTC  N/A     Disabled
+5224    900     RuntimeBroker.  0xc603c1cec080  2       -       1       False   2026-01-17 18:03:58.000000 UTC  N/A     Disabled
+5144    900     RuntimeBroker.  0xc603c1ced080  4       -       1       False   2026-01-17 18:03:58.000000 UTC  N/A     Disabled
+6212    6856    firefox.exe     0xc603c1cee080  18      -       1       False   2026-01-17 18:05:21.000000 UTC  N/A     Disabled
+4116    900     Widgets.exe     0xc603c1cef080  15      -       1       False   2026-01-17 18:03:58.000000 UTC  N/A     Disabled
+4308    900     StartMenuExper  0xc603c1cf0080  6       -       1       False   2026-01-17 18:03:57.000000 UTC  N/A     Disabled
+1984    900     SearchHost.exe  0xc603c1cf1080  39      -       1       False   2026-01-17 18:03:57.000000 UTC  N/A     Disabled
+4256    3448    sshd.exe        0xc603c1d130c0  0       -       0       False   2026-01-17 18:07:17.000000 UTC  2026-01-17 18:07:19.000000 UTC  Disabled
+7860    900     ShellExperienc  0xc603c1e6d080  24      -       1       False   2026-01-17 18:07:56.000000 UTC  N/A     Disabled
+7692    728     svchost.exe     0xc603c1e70080  1       -       1       False   2026-01-17 18:06:04.000000 UTC  N/A     Disabled
+7136    6856    firefox.exe     0xc603c21b90c0  16      -       1       False   2026-01-17 18:05:20.000000 UTC  N/A     Disabled
+7140    4460    vlc.exe 0xc603c236f080  27      -       1       False   2026-01-17 18:04:19.000000 UTC  N/A     Disabled
+6716    2212    ctfmon.exe      0xc603c23df0c0  8       -       1       False   2026-01-17 18:04:03.000000 UTC  N/A     Disabled
+7068    728     SearchIndexer.  0xc603c23e70c0  8       -       0       False   2026-01-17 18:04:16.000000 UTC  N/A     Disabled
+3444    6856    firefox.exe     0xc603c23e8080  5       -       1       False   2026-01-17 18:05:21.000000 UTC  N/A     Disabled
+5692    6856    firefox.exe     0xc603c23f0080  16      -       1       False   2026-01-17 18:05:21.000000 UTC  N/A     Disabled
+7152    728     svchost.exe     0xc603c23f2080  9       -       0       False   2026-01-17 18:04:19.000000 UTC  N/A     Disabled
+6852    4460    Taskmgr.exe     0xc603c24540c0  0       -       1       False   2026-01-17 18:04:03.000000 UTC  2026-01-17 18:04:17.000000 UTC  Disabled
+2924    728     SgrmBroker.exe  0xc603c25cb080  5       -       0       False   2026-01-17 18:05:52.000000 UTC  N/A     Disabled
+7536    900     ApplicationFra  0xc603c26e80c0  1       -       1       False   2026-01-17 18:06:03.000000 UTC  N/A     Disabled
+5028    4460    FTK Imager.exe  0xc603c2ac50c0  13      -       1       False   2026-01-17 18:21:27.000000 UTC  N/A     Disabled
+7064    6856    firefox.exe     0xc603c2b650c0  15      -       1       False   2026-01-17 18:15:43.000000 UTC  N/A     Disabled
+1080    900     FESearchHost.e  0xc603c2b690c0  18      -       1       False   2026-01-17 18:16:57.000000 UTC  N/A     Disabled
+5412    6856    firefox.exe     0xc603c2bd2080  15      -       1       False   2026-01-17 18:15:43.000000 UTC  N/A     Disabled
+6808    728     svchost.exe     0xc603c2e5c080  12      -       0       False   2026-01-17 18:05:53.000000 UTC  N/A     Disabled
+3976    900     RuntimeBroker.  0xc603c2e60080  5       -       1       False   2026-01-17 18:07:56.000000 UTC  N/A     Disabled
+7684    900     backgroundTask  0xc603c2e760c0  4       -       1       False   2026-01-17 18:09:26.000000 UTC  N/A     Disabled
+6960    728     svchost.exe     0xc603c2ea2080  1       -       1       False   2026-01-17 18:05:53.000000 UTC  N/A     Disabled
+5236    6904    conhost.exe     0xc603c2f340c0  5       -       0       False   2026-01-17 18:07:19.000000 UTC  N/A     Disabled
+2692    728     svchost.exe     0xc603c30240c0  4       -       0       False   2026-01-17 18:06:27.000000 UTC  N/A     Disabled
+4724    6856    firefox.exe     0xc603c302f080  5       -       1       False   2026-01-17 18:14:03.000000 UTC  N/A     Disabled
+5892    4460    Taskmgr.exe     0xc603c305a0c0  0       -       1       False   2026-01-17 18:06:47.000000 UTC  2026-01-17 18:06:53.000000 UTC  Disabled
+764     728     svchost.exe     0xc603c3066080  0       -       0       False   2026-01-17 18:09:46.000000 UTC  2026-01-17 18:09:51.000000 UTC  Disabled
+7468    728     svchost.exe     0xc603c308a0c0  7       -       0       False   2026-01-17 18:06:26.000000 UTC  N/A     Disabled
+5860    4460    Taskmgr.exe     0xc603c34340c0  0       -       1       False   2026-01-17 18:21:30.000000 UTC  2026-01-17 18:21:37.000000 UTC  Disabled
+4224    7068    SearchProtocol  0xc603c34450c0  5       -       1       False   2026-01-17 18:16:20.000000 UTC  N/A     Disabled
+7408    6808    MoUsoCoreWorke  0xc603c3446080  0       -       0       False   2026-01-17 18:16:53.000000 UTC  2026-01-17 18:17:55.000000 UTC  Disabled
+2612    6856    firefox.exe     0xc603c34970c0  15      -       1       False   2026-01-17 18:15:43.000000 UTC  N/A     Disabled
+4292    4460    Notepad.exe     0xc603c47e60c0  17      -       1       False   2026-01-17 18:17:00.000000 UTC  N/A     Disabled

@@ -1,0 +1,1079 @@
+PS C:\Users\danib\Desktop\Linux> vol -f .\memoria.lime linux.psscan
+Volatility 3 Framework 2.26.2
+Progress:  100.00               Stacking attempts finished
+OFFSET (P)      PID     TID     PPID    COMM    EXIT_STATE
+
+0x193a4f0       0       256     0       X       TASK_RUNNING
+0x247c328       0       100     0       X⌂      TASK_RUNNING
+0x24b2678       0       43      0               TASK_RUNNING
+0x2740000       2654    2688    2560    ProfilerChild   TASK_RUNNING
+0x2741a00       2654    2668    2560    IPC I/O Child   TASK_RUNNING
+0x2743400       4578    4635    1484    MTP Download Se TASK_RUNNING
+0x2744e00       4665    4665    4664    avml    TASK_RUNNING
+0x2748000       4182    4193    2560    AsyncSi~lThread TASK_RUNNING
+0x2749a00       2560    2762    1662    LS Thread       TASK_RUNNING
+0x274b400       2785    2877    2560    TaskCon~ller #3 TASK_RUNNING
+0x274ce00       2785    2876    2560    TaskCon~ller #2 TASK_RUNNING
+0x2778000       2560    2685    1662    FSBroker2654    TASK_RUNNING
+0x2779a00       2560    2684    1662    AudioIP~ion RPC TASK_RUNNING
+0x277b400       2560    2683    1662    AudioIP~allback TASK_RUNNING
+0x277ce00       4553    4554    1475    pool-spawner    EXIT_DEAD
+0x2780000       2560    2695    1662    URL Classifier  TASK_RUNNING
+0x2781a00       2560    2694    1662    sqldb:7~lite #2 TASK_RUNNING
+0x2783400       4578    4597    1484    Telegram        EXIT_DEAD
+0x2784e00       2560    2692    1662    sqldb:p~lite #1 TASK_RUNNING
+0x2798000       4578    4630    1484    Telegram        TASK_RUNNING
+0x2799a00       2560    2777    1662    FSBroker2771    TASK_RUNNING
+0x279b400       4578    4629    1484    Telegram        TASK_RUNNING
+0x279ce00       2560    2786    1662    FSBroker2785    TASK_RUNNING
+0x27a0000       2785    2863    2560    RemoteLzyStream TASK_RUNNING
+0x27a1a00       2560    4183    1662    FSBroker4182    TASK_RUNNING
+0x27a3400       2785    2828    2560    ProfilerChild   TASK_RUNNING
+0x27a4e00       4578    4599    1484    QThread TASK_RUNNING
+0x27b0000       4578    4578    1484    Telegram        TASK_RUNNING
+0x27b1a00       2560    2702    1662    sqldb:c~lite #3 TASK_RUNNING
+0x27b3400       4575    4575    2       kworker/u20:0   TASK_RUNNING
+0x27b4e00       2560    2716    1662    FSBroker2704    TASK_RUNNING
+0x27c0000       2560    2730    1662    RemoteLzyStream TASK_RUNNING
+0x27c1a00       2560    2727    1662    FSBroker2726    TASK_RUNNING
+0x27c3400       2560    2725    1662    sqldb:p~lite #4 TASK_RUNNING
+0x27c4e00       4578    4634    1484    Telegram        TASK_RUNNING
+0x27c8000       2560    2743    1662    sqldb:p~lite #5 TASK_RUNNING
+0x27c9a00       2560    2732    1662    DOM Worker      TASK_RUNNING
+0x27cb400       2560    2752    1662    sqldb:p~lite #7 TASK_RUNNING
+0x27cce00       2560    2750    1662    sqldb:c~lite #6 TASK_RUNNING
+0x27d0000       2785    2802    2560    StyleThread#1   TASK_RUNNING
+0x27d1a00       2785    2800    2560    Socket Thread   TASK_RUNNING
+0x27d3400       2785    2798    2560    IPC I/O Child   TASK_RUNNING
+0x27d4e00       2785    2801    2560    HTML5 Parser    TASK_RUNNING
+0xc838000       2704    2710    2560    IPC I/O Child   TASK_RUNNING
+0xc839a00       4578    4628    1484    llvmpipe-3      TASK_RUNNING
+0xc83b400       2704    2712    2560    HTML5 Parser    TASK_RUNNING
+0xc83ce00       2704    2711    2560    Socket Thread   TASK_RUNNING
+0xc840000       2954    2957    1484    gdbus   TASK_RUNNING
+0xc841a00       2704    2715    2560    JS Watchdog     TASK_RUNNING
+0xc843400       2704    2714    2560    StyleThread#2   TASK_RUNNING
+0xc844e00       2704    2713    2560    StyleThread#1   TASK_RUNNING
+0xc848000       2704    2718    2560    RemVidChild     TASK_RUNNING
+0xc849a00       2704    2721    2560    Timer   TASK_RUNNING
+0xc84b400       2704    2720    2560    Worker Launcher TASK_RUNNING
+0xc84ce00       2704    2719    2560    ImageIO TASK_RUNNING
+0xc850000       2704    2723    2560    ProcessHangMon  TASK_RUNNING
+0xc851a00       2704    2722    2560    ImageBridgeChld TASK_RUNNING
+0xc853400       2726    2726    2560    WebExtensions   TASK_RUNNING
+0xc854e00       2704    2724    2560    ProfilerChild   TASK_RUNNING
+0xc8f8000       3000    3060    1484    speech-dispatch TASK_RUNNING
+0xc8f9a00       3000    3059    1484    speech-dispatch TASK_RUNNING
+0xc8fb400       4578    4596    1484    Telegram        EXIT_DEAD
+0xc8fce00       4578    4595    1484    Telegram        EXIT_DEAD
+0xcaf0000       4182    4201    2560    JS Watchdog     TASK_RUNNING
+0xcaf1a00       2560    4496    1662    DOM Worker      EXIT_DEAD
+0xcaf3400       2560    4494    1662    Backgro~ool #12 EXIT_DEAD
+0xcaf4e00       4182    4200    2560    StyleThread#2   TASK_RUNNING
+0xd048000       4578    4586    1484    dconf worker    TASK_RUNNING
+0xd049a00       4578    4583    1484    gdbus   TASK_RUNNING
+0xd04b400       2560    2947    1662    sqldb:f~ite #10 TASK_RUNNING
+0xd04ce00       2560    2946    1662    sqldb:p~lite #9 TASK_RUNNING
+0xd070000       4188    4238    2560    ImageBridgeChld TASK_RUNNING
+0xd071a00       4188    4240    2560    ProcessHangMon  TASK_RUNNING
+0xd073400       4188    4239    2560    RemoteLzyStream TASK_RUNNING
+0xd074e00       2785    2915    2560    DOM Worker      TASK_RUNNING
+0xd0d3678       0       43      0               TASK_RUNNING
+0xd208000       2704    2763    2560    TaskCon~ller #0 TASK_RUNNING
+0xd209a00       2560    4425    1662    DNS Res~ver #58 EXIT_DEAD
+0xd20b400       2704    2765    2560    TaskCon~ller #2 TASK_RUNNING
+0xd20ce00       2704    2764    2560    TaskCon~ller #1 TASK_RUNNING
+0xd210000       2771    2771    2560    Utility Process TASK_RUNNING
+0xd211a00       4182    4196    2560    Socket Thread   TASK_RUNNING
+0xd213400       2704    2766    2560    TaskCon~ller #3 TASK_RUNNING
+0xd214e00       2771    2774    2560    AsyncSi~lThread TASK_RUNNING
+0xd268000       2726    2756    2560    TaskCon~ller #0 TASK_RUNNING
+0xd269a00       4578    4639    1484    Telegram        TASK_RUNNING
+0xd26b400       4578    4638    1484    Telegram        TASK_RUNNING
+0xd26ce00       2726    2749    2560    ProfilerChild   TASK_RUNNING
+0xd278000       2726    2758    2560    TaskCon~ller #2 TASK_RUNNING
+0xd279a00       2726    2757    2560    TaskCon~ller #1 TASK_RUNNING
+0xd27b400       4530    4530    2       kworker/1:2     TASK_RUNNING
+0xd27ce00       2726    2759    2560    TaskCon~ller #3 TASK_RUNNING
+0xd280000       2726    2865    2560    RemoteLzyStream TASK_RUNNING
+0xd281a00       2560    4190    1662    FSBroker4188    TASK_RUNNING
+0xd283400       4252    4252    4251    bash    TASK_RUNNING
+0xd284e00       4578    4587    1484    [pango] fontcon TASK_RUNNING
+0xd360000       4578    4589    1484    WaylandEventThr TASK_RUNNING
+0xd361a00       4578    4588    1484    WaylandEventThr TASK_RUNNING
+0xd363400       2560    3872    1662    threaded-ml     TASK_RUNNING
+0xd364e00       4182    4199    2560    StyleThread#1   TASK_RUNNING
+0xd378000       4186    4215    2560    RemVidChild     TASK_RUNNING
+0xd379a00       4186    4223    2560    ImageIO TASK_RUNNING
+0xd37b400       4186    4214    2560    Backgro~Pool #1 EXIT_DEAD
+0xd37ce00       2704    2862    2560    RemoteLzyStream TASK_RUNNING
+0xd3e0000       4578    4579    1484    pool-spawner    TASK_RUNNING
+0xd3e1a00       2560    4541    1662    DNS Res~ver #65 TASK_RUNNING
+0xd3e3400       4188    4225    2560    Socket Thread   TASK_RUNNING
+0xd3e4e00       4578    4580    1484    gmain   TASK_RUNNING
+0x115d40bc      2560    2599    1662    Cache2 I/O      TASK_RUNNING
+0x115d5abc      2560    2600    1662    Cookie  TASK_RUNNING
+0x115d74bc      1619    1631    1484    ♥       TASK_RUNNING
+0x116c0ebc      2540    2545    1484    gdbus   TASK_RUNNING
+0x116c40bc      2488    2490    1662    pool-spawner    TASK_RUNNING
+0x116c5abc      1797    1880    1484    gdbus   TASK_RUNNING
+0x116c74bc      2488    2491    1662            TASK_RUNNING
+0x136e8e3f      2560    2786    1662    FSBroker2785    TASK_RUNNING
+0x1482943f      2560    4494    1662    Backgro~ool #12 EXIT_DEAD
+0x1482ae3f      4182    4200    2560    StyleThread#2   TASK_RUNNING
+0x1483e03f      4182    4201    2560    JS Watchdog     TASK_RUNNING
+0x14acc03f      2560    2730    1662    RemoteLzyStream TASK_RUNNING
+0x14de143f      2560    2752    1662    sqldb:p~lite #7 TASK_RUNNING
+0x167b703f      4182    4193    2560    AsyncSi~lThread TASK_RUNNING
+0x18890000      4513    4513    2       kworker/3:1     TASK_RUNNING
+0x18891a00      4519    4519    2       kworker/0:0     TASK_RUNNING
+0x18893400      3000    3058    1484    speech-dispatch TASK_RUNNING
+0x18894e00      3000    3057    1484    gmain   TASK_RUNNING
+0x188a14e0      0       1       2106436 x)
+        TASK_RUNNING
+0x18940000      2560    2901    1662    llvmpipe-0      TASK_RUNNING
+0x18941a00      1998    4570    1484    evolution-calen EXIT_DEAD
+0x18943400      4182    4222    2560    ProfilerChild   TASK_RUNNING
+0x18944e00      2771    4256    2560    Timer   TASK_RUNNING
+0x18998000      4417    4417    2       kworker/u17:4   TASK_RUNNING
+0x18999a00      4578    4626    1484    llvmpipe-1      TASK_RUNNING
+0x1899b400      4578    4604    1484    pool-1  EXIT_DEAD
+0x1899ce00      4578    4627    1484    llvmpipe-2      TASK_RUNNING
+0x189a8678      0       43      0               TASK_RUNNING
+0x1a637e3f      2560    2750    1662    sqldb:c~lite #6 TASK_RUNNING
+0x1ac2303f      2560    2695    1662    URL Classifier  TASK_RUNNING
+0x1b42b43f      2785    2828    2560    ProfilerChild   TASK_RUNNING
+0x1b54603f      2560    2685    1662    FSBroker2654    TASK_RUNNING
+0x1b5e943f      2704    2714    2560    StyleThread#2   TASK_RUNNING
+0x1b5eae3f      2704    2713    2560    StyleThread#1   TASK_RUNNING
+0x1b5ee03f      2704    2718    2560    RemVidChild     TASK_RUNNING
+0x1b5f943f      2704    2712    2560    HTML5 Parser    TASK_RUNNING
+0x1b5fae3f      2704    2711    2560    Socket Thread   TASK_RUNNING
+0x1b5fe03f      2954    2957    1484    gdbus   TASK_RUNNING
+0x1b71e03f      2704    2710    2560    IPC I/O Child   TASK_RUNNING
+0x1b75e03f      4578    4578    1484    Telegram        TASK_RUNNING
+0x1bc00000      2647    2855    2560    TaskCon~ller #2 TASK_RUNNING
+0x1bc01a00      2647    2854    2560    TaskCon~ller #1 TASK_RUNNING
+0x1bc03400      2647    2853    2560    TaskCon~ller #0 TASK_RUNNING
+0x1bc04e00      2647    2856    2560    TaskCon~ller #3 TASK_RUNNING
+0x1bc10000      2785    2869    2560    Worker Launcher TASK_RUNNING
+0x1bc11a00      2785    2875    2560    TaskCon~ller #1 TASK_RUNNING
+0x1bc13400      2954    2954    1484    gvfsd-metadata  TASK_RUNNING
+0x1bc14e00      2785    2874    2560    TaskCon~ller #0 TASK_RUNNING
+0x1bced458      0       24      0       +       TASK_RUNNING
+0x1bd6b678      0       43      0               TASK_RUNNING
+0x1bdd8000      2771    2776    2560    IPC I/O Child   TASK_RUNNING
+0x1bdd9a00      2560    2782    1662    glean.mps       TASK_RUNNING
+0x1bddb400      2785    2785    2560    Isolated Web Co TASK_RUNNING
+0x1bddce00      2771    2778    2560    ProfilerChild   TASK_RUNNING
+0x1bde8000      2785    2827    2560    ProcessHangMon  TASK_RUNNING
+0x1bde9a00      2785    2817    2560    ImageBridgeChld TASK_RUNNING
+0x1bdeb400      2785    2814    2560    Timer   TASK_RUNNING
+0x1bdece00      2785    2813    2560    ImageIO TASK_RUNNING
+0x1be00000      2785    2806    2560    RemVidChild     TASK_RUNNING
+0x1be01a00      4188    4188    2560    Web Content     TASK_RUNNING
+0x1be03400      2785    2804    2560    JS Watchdog     TASK_RUNNING
+0x1be04e00      2785    2803    2560    StyleThread#2   TASK_RUNNING
+0x1be18000      4182    4204    2560    RemVidChild     TASK_RUNNING
+0x1be19a00      4182    4209    2560    ImageIO TASK_RUNNING
+0x1be1b400      4578    4658    1484    Thread (pooled) TASK_RUNNING
+0x1be1ce00      4654    4654    2       kworker/0:1     TASK_RUNNING
+0x1bfb0000      2560    3598    1662    Backgro~Pool #8 EXIT_DEAD
+0x1bfb1a00      2647    4484    2560    StreamTrans #27 EXIT_DEAD
+0x1bfb3400      2560    2999    1662    speechd init    TASK_RUNNING
+0x1bfb4e00      4445    4445    2       kworker/u18:1   TASK_RUNNING
+0x1bfc0000      4186    4211    2560    StyleThread#2   TASK_RUNNING
+0x1bfc1a00      2560    4024    1662    DNS Res~ver #33 EXIT_DEAD
+0x1bfc3400      2560    3247    1662    DNS Resolver #9 EXIT_DEAD
+0x1bfc4e00      2560    3246    1662    DNS Resolver #8 EXIT_DEAD
+0x1da5443f      4578    4597    1484    Telegram        EXIT_DEAD
+0x1e5cde3f      2560    2692    1662    sqldb:p~lite #1 TASK_RUNNING
+0x1fd8fe3f      2785    2801    2560    HTML5 Parser    TASK_RUNNING
+0x20d48000      2647    2917    2560    DOM Worker      TASK_RUNNING
+0x20d49a00      4188    4230    2560    Backgro~Pool #1 EXIT_DEAD
+0x20d4b400      2560    3990    1662    DNS Res~ver #21 EXIT_DEAD
+0x20d4ce00      4188    4232    2560    RemVidChild     TASK_RUNNING
+0x20e58000      4578    4606    1484    Thread (pooled) EXIT_DEAD
+0x20e59a00      2560    4644    1662    StreamTrans #45 EXIT_DEAD
+0x20e5b400      4186    4234    2560    ProcessHangMon  TASK_RUNNING
+0x20e5ce00      2560    4643    1662    StreamTrans #44 EXIT_DEAD
+0x20f24490      0       60      0       ►4      TASK_RUNNING
+0x20fa0000      4188    4229    2560    JS Watchdog     TASK_RUNNING
+0x20fa1a00      2560    4528    1662    StreamTrans #41 EXIT_DEAD
+0x20fa3400      2785    4529    2560    StreamTrans #14 EXIT_DEAD
+0x20fa4e00      2560    4527    1662    StreamTrans #40 EXIT_DEAD
+0x20fb0000      4182    4220    2560    RemoteLzyStream TASK_RUNNING
+0x20fb1a00      4182    4219    2560    ImageBridgeChld TASK_RUNNING
+0x20fb3400      4182    4221    2560    ProcessHangMon  TASK_RUNNING
+0x20fb4e00      4578    4598    1484    QThread TASK_RUNNING
+0x21010000      2560    2909    1662    firefox:disk$0  TASK_RUNNING
+0x21011a00      2560    2908    1662    CanvasRenderer  TASK_RUNNING
+0x21013400      2560    2907    1662    CanvasRenderer  TASK_RUNNING
+0x21014e00      2560    2906    1662    CanvasRenderer  TASK_RUNNING
+0x21206af0      0       1017    -29908          TASK_RUNNING
+0x212a8000      2560    2902    1662    llvmpipe-1      TASK_RUNNING
+0x212a9a00      2560    2905    1662    CanvasRenderer  TASK_RUNNING
+0x212ab400      2560    2904    1662    llvmpipe-3      TASK_RUNNING
+0x212ace00      2560    2903    1662    llvmpipe-2      TASK_RUNNING
+0x213d20e0      903946  773     -24874  l/ §    TASK_RUNNING
+0x2278143f      4188    4225    2560    Socket Thread   TASK_RUNNING
+0x22782e3f      4578    4580    1484    gmain   TASK_RUNNING
+0x235fe03f      4188    4238    2560    ImageBridgeChld TASK_RUNNING
+0x25b9143f      4186    4214    2560    Backgro~Pool #1 EXIT_DEAD
+0x25b92e3f      2704    2862    2560    RemoteLzyStream TASK_RUNNING
+0x293c943f      2704    2720    2560    Worker Launcher TASK_RUNNING
+0x293cae3f      2704    2719    2560    ImageIO TASK_RUNNING
+0x293ce03f      2704    2723    2560    ProcessHangMon  TASK_RUNNING
+0x2949a07e      4182    4193    2560    AsyncSi~lThread TASK_RUNNING
+0x295a143f      2726    2726    2560    WebExtensions   TASK_RUNNING
+0x295a2e3f      2704    2724    2560    ProfilerChild   TASK_RUNNING
+0x2d932e3f      2560    2903    1662    llvmpipe-2      TASK_RUNNING
+0x30b7307e      4188    4238    2560    ImageBridgeChld TASK_RUNNING
+0x34851e3f      2560    4527    1662    StreamTrans #40 EXIT_DEAD
+0x35182e7e      4578    4580    1484    gmain   TASK_RUNNING
+0x35818e7e      2560    2750    1662    sqldb:c~lite #6 TASK_RUNNING
+0x3708303f      4182    4220    2560    RemoteLzyStream TASK_RUNNING
+0x39c98000      2560    4432    1662    DNS Res~ver #61 EXIT_DEAD
+0x39c99a00      4242    4242    897     sshd-session    TASK_RUNNING
+0x39c9b400      2560    4433    1662    DNS Res~ver #62 EXIT_DEAD
+0x39c9ce00      2560    4434    1662    DNS Res~ver #63 EXIT_DEAD
+0x3a99b11f      903946  773     -24874  l/ §    TASK_RUNNING
+0x3d6ed03f      2647    2917    2560    DOM Worker      TASK_RUNNING
+0x40c2d43f      2560    2904    1662    llvmpipe-3      TASK_RUNNING
+0x47df8000      4562    4562    1       (sd-close)      EXIT_DEAD
+0x47df9a00      1662    4550    1484    pool-28 EXIT_DEAD
+0x47dfb400      1662    4551    1484    pool-29 EXIT_DEAD
+0x47dfce00      4186    4233    2560    RemoteLzyStream TASK_RUNNING
+0x47ef8000      2560    4461    1662    StreamTrans #21 EXIT_DEAD
+0x47ef9a00      2560    4307    1662    DOM Worker      TASK_RUNNING
+0x47efb400      1662    4295    1484    threaded-ml     TASK_RUNNING
+0x47efce00      2785    4462    2560    StreamTrans #9  EXIT_DEAD
+0x47f48000      4182    4198    2560    HTML5 Parser    TASK_RUNNING
+0x47f49a00      4578    4625    1484    llvmpipe-0      TASK_RUNNING
+0x47f4b400      4578    4600    1484    QThread TASK_RUNNING
+0x47f4ce00      4578    4622    1484    MTP Main Sessio TASK_RUNNING
+0x4cb25e7e      2560    2903    1662    llvmpipe-2      TASK_RUNNING
+0x4daa0ebd      2560    2903    1662    llvmpipe-2      TASK_RUNNING
+0x4fbc847e      2560    2904    1662            TASK_RUNNING
+0x536f203f      4182    4198    2560    HTML5 Parser    TASK_RUNNING
+0x536f3a3f      4578    4625    1484    llvmpipe-0      TASK_RUNNING
+0x536f543f      4578    4600    1484    QThread TASK_RUNNING
+0x536f6e3f      4578    4622    1484    MTP Main Sessio TASK_RUNNING
+0x5433203f      2560    4461    1662    StreamTrans #21 EXIT_DEAD
+0x54333a3f      2560    4307    1662    DOM Worker      TASK_RUNNING
+0x5433543f      1662    4295    1484    threaded-ml     TASK_RUNNING
+0x54336e3f      2785    4462    2560    StreamTrans #9  EXIT_DEAD
+0x5b23a03f      4562    4562    1       (sd-close)      EXIT_DEAD
+0x5b23ba3f      1662    4550    1484    pool-28 EXIT_DEAD
+0x5b23d43f      1662    4551    1484    pool-29 EXIT_DEAD
+0x5b23ee3f      4186    4233    2560    RemoteLzyStream TASK_RUNNING
+0x5c658000      2560    4538    1662    BgIOThr~Pool #5 TASK_RUNNING
+0x5c659a00      2560    4539    1662    Backgro~ool #14 TASK_RUNNING
+0x5c65b400      2560    4537    1662    DNS Res~ver #64 TASK_RUNNING
+0x5c65ce00      4272    4272    2       kworker/R-uas   TASK_RUNNING
+0x5dc30000      4188    4226    2560    HTML5 Parser    TASK_RUNNING
+0x5dc31a00      4578    4640    1484    Telegram        TASK_RUNNING
+0x5dc33400      4188    4227    2560    StyleThread#1   TASK_RUNNING
+0x5dc34e00      4578    4641    1484    Telegram        TASK_RUNNING
+0x77c70000      2647    2664    2560    IPC I/O Child   TASK_RUNNING
+0x77c71a00      2647    2676    2560    Worker Launcher TASK_RUNNING
+0x77c73400      2647    2669    2560    HTML5 Parser    TASK_RUNNING
+0x77c74e00      2647    2665    2560    Socket Thread   TASK_RUNNING
+0x77c78000      2560    4540    1662    Indexed~ IO #16 EXIT_DEAD
+0x77c79a00      2647    2672    2560    JS Watchdog     TASK_RUNNING
+0x77c7b400      2647    2671    2560    StyleThread#2   TASK_RUNNING
+0x77c7ce00      2647    2670    2560    StyleThread#1   TASK_RUNNING
+0x77c80000      2647    2678    2560    ImageBridgeChld TASK_RUNNING
+0x77c81a00      2647    2677    2560    Timer   TASK_RUNNING
+0x77c83400      2647    2681    2560    ProfilerChild   TASK_RUNNING
+0x77c84e00      2647    2679    2560    ProcessHangMon  TASK_RUNNING
+0x77c88000      2560    2760    1662    sqldb:d~lite #8 TASK_RUNNING
+0x77c89a00      4645    4645    2       kworker/u18:2   TASK_RUNNING
+0x77c8b400      2726    2735    2560    IPC I/O Child   TASK_RUNNING
+0x77c8ce00      2726    2733    2560    AsyncSi~lThread TASK_RUNNING
+0x77c90000      2726    2737    2560    HTML5 Parser    TASK_RUNNING
+0x77c91a00      2726    2736    2560    Socket Thread   TASK_RUNNING
+0x77c93400      2726    2739    2560    StyleThread#2   TASK_RUNNING
+0x77c94e00      2726    2738    2560    StyleThread#1   TASK_RUNNING
+0x77c98000      2726    2741    2560    Backgro~Pool #1 EXIT_DEAD
+0x77c99a00      2726    2740    2560    JS Watchdog     TASK_RUNNING
+0x77c9b400      2726    2744    2560    ImageIO TASK_RUNNING
+0x77c9ce00      2726    2742    2560    RemVidChild     TASK_RUNNING
+0x77ca0000      2726    2747    2560    ImageBridgeChld TASK_RUNNING
+0x77ca1a00      2726    2746    2560    Timer   TASK_RUNNING
+0x77ca3400      2726    2745    2560    Worker Launcher TASK_RUNNING
+0x77ca4e00      2726    2748    2560    ProcessHangMon  TASK_RUNNING
+0x77cbc678      0       43      0               TASK_RUNNING
+0x77d80000      2560    2660    1662    WRScene~derLP#1 TASK_RUNNING
+0x77d81a00      2560    2659    1662    WRScene~ilder#1 TASK_RUNNING
+0x77d83400      2560    4648    1662    Indexed~ IO #19 EXIT_DEAD
+0x77d84e00      2560    2661    1662    WRRende~ckend#1 TASK_RUNNING
+0x77e6a640      0       2       0               TASK_RUNNING
+0x77f50000      4267    4267    2       kworker/R-scsi_ TASK_RUNNING
+0x77f51a00      1904    4549    1484    pool-3  EXIT_DEAD
+0x77f53400      4269    4269    2       usb-storage     TASK_RUNNING
+0x77f54e00      1904    4548    1484    pool-2  EXIT_DEAD
+0x100288000     1       1       0       systemd TASK_RUNNING
+0x100289a00     4       4       2       kworker/R-kvfre TASK_RUNNING
+0x10028b400     3       3       2       pool_workqueue_ TASK_RUNNING
+0x10028ce00     2       2       0       kthreadd        TASK_RUNNING
+0x1002d8000     6       6       2       kworker/R-sync_ TASK_RUNNING
+0x1002d9a00     5       5       2       kworker/R-rcu_g TASK_RUNNING
+0x1002db400     8       8       2       kworker/R-netns TASK_RUNNING
+0x1002dce00     7       7       2       kworker/R-slub_ TASK_RUNNING
+0x1002e0000     12      12      2       kworker/u16:0   TASK_RUNNING
+0x1002e1a00     4612    4616    4578    gmain   EXIT_DEAD
+0x1002e3400     10      10      2       kworker/0:0H    TASK_RUNNING
+0x1002e4e00     4612    4615    4578    pool-spawner    EXIT_DEAD
+0x1002e8000     15      15      2       rcu_tasks_rude_ TASK_RUNNING
+0x1002e9a00     14      14      2       rcu_tasks_kthre TASK_RUNNING
+0x1002eb400     13      13      2       kworker/R-mm_pe TASK_RUNNING
+0x1002ece00     16      16      2       rcu_tasks_trace TASK_RUNNING
+0x100319b00     0       2       0       x9♣     TASK_RUNNING
+0x100368000     18      18      2       rcu_preempt     TASK_RUNNING
+0x100369a00     17      17      2       ksoftirqd/0     TASK_RUNNING
+0x10036b400     20      20      2       rcu_exp_gp_kthr TASK_RUNNING
+0x10036ce00     19      19      2       rcu_exp_par_gp_ TASK_RUNNING
+0x100371a00     22      22      2       idle_inject/0   TASK_RUNNING
+0x100373400     21      21      2       migration/0     TASK_RUNNING
+0x100388000     25      25      2       idle_inject/1   TASK_RUNNING
+0x100389a00     24      24      2       cpuhp/1 TASK_RUNNING
+0x10038b400     23      23      2       cpuhp/0 TASK_RUNNING
+0x100390000     29      29      2       kworker/1:0H    TASK_RUNNING
+0x100391a00     28      28      2       kworker/1:0     TASK_RUNNING
+0x100393400     27      27      2       ksoftirqd/1     TASK_RUNNING
+0x100394e00     26      26      2       migration/1     TASK_RUNNING
+0x1003a8000     31      31      2       idle_inject/2   TASK_RUNNING
+0x1003a9a00     30      30      2       cpuhp/2 TASK_RUNNING
+0x1003ab400     33      33      2       ksoftirqd/2     TASK_RUNNING
+0x1003ace00     32      32      2       migration/2     TASK_RUNNING
+0x100898000     36      36      2       cpuhp/3 TASK_RUNNING
+0x100899a00     35      35      2       kworker/2:0H    TASK_RUNNING
+0x10089b400     2560    4669    1662    StreamTrans #47 EXIT_DEAD
+0x10089ce00     37      37      2       idle_inject/3   TASK_RUNNING
+0x1008a0000     2704    4535    2560    StreamTrans #12 EXIT_DEAD
+0x1008a1a00     39      39      2       ksoftirqd/3     TASK_RUNNING
+0x1008a3400     38      38      2       migration/3     TASK_RUNNING
+0x1008a4e00     41      41      2       kworker/3:0H    TASK_RUNNING
+0x1008b8000     43      43      2       kworker/u18:0   TASK_RUNNING
+0x1008b9a00     42      42      2       kworker/u17:0   TASK_RUNNING
+0x1008bb400     4578    4659    1484    Thread (pooled) EXIT_DEAD
+0x1008bce00     44      44      2       kworker/u19:0   TASK_RUNNING
+0x1008d0000     72      72      2       kworker/3:1H    TASK_RUNNING
+0x1008d1a00     252     252     2       kworker/R-scsi_ TASK_RUNNING
+0x1008d3400     251     251     2       scsi_eh_4       TASK_RUNNING
+0x1008d4e00     73      73      2       kswapd0 TASK_RUNNING
+0x1008ec938     3648    1728    0               TASK_RUNNING
+0x1008f8000     53      53      2       oom_reaper      TASK_RUNNING
+0x1008f9a00     52      52      2       khungtaskd      TASK_RUNNING
+0x1008fb400     51      51      2       kauditd TASK_RUNNING
+0x1008fce00     54      54      2       kworker/u17:1   EXIT_DEAD
+0x101160000     4666    4666    2       kworker/1:1     TASK_RUNNING
+0x101161a00     58      58      2       ksmd    TASK_RUNNING
+0x101163400     57      57      2       kcompactd0      TASK_RUNNING
+0x101164e00     56      56      2       kworker/R-write TASK_RUNNING
+0x101180000     60      60      2       kworker/R-kinte TASK_RUNNING
+0x101181a00     59      59      2       khugepaged      TASK_RUNNING
+0x101183400     62      62      2       kworker/R-blkcg TASK_RUNNING
+0x101184e00     61      61      2       kworker/R-kbloc TASK_RUNNING
+0x101213b20     0       1403    0       j♣      TASK_RUNNING
+0x10123cb20     0       1652    0               TASK_RUNNING
+0x10130eb20     0       5461    0       b§      TASK_RUNNING
+0x101317b20     1000    1000    0               TASK_RUNNING
+0x101410000     66      66      2       kworker/R-edac- TASK_RUNNING
+0x101411a00     65      65      2       kworker/R-tpm_d TASK_RUNNING
+0x101413400     4662    4662    4252    sudo    TASK_RUNNING
+0x101414e00     63      63      2       irq/9-acpi      TASK_RUNNING
+0x101458000     4420    4420    2       kworker/1:2     EXIT_DEAD
+0x101459a00     69      69      2       kworker/R-quota TASK_RUNNING
+0x10145b400     68      68      2       kworker/R-devfr TASK_RUNNING
+0x10145ce00     67      67      2       kworker/u16:1   TASK_RUNNING
+0x1014d8000     705     754     1       pool-spawner    TASK_RUNNING
+0x1014d9a00     173     173     2       kworker/u20:2   TASK_RUNNING
+0x1014db400     790     790     1       NetworkManager  TASK_RUNNING
+0x1014dce00     2785    4649    2560    StreamTrans #17 EXIT_DEAD
+0x1015d0000     904     904     1       gdm3    TASK_RUNNING
+0x1015d1a00     2560    4674    1662    StreamTrans #49 TASK_RUNNING
+0x1015d3400     906     906     2       kworker/R-ib-co TASK_RUNNING
+0x1015d4e00     184     184     2       kworker/u20:4   TASK_RUNNING
+0x1015d8000     189     189     2       kworker/u20:5   TASK_RUNNING
+0x1015d9a00     360     394     1       sd-resolve      TASK_RUNNING
+0x1015db400     904     918     1       gdbus   TASK_RUNNING
+0x1015dce00     904     917     1       gmain   TASK_RUNNING
+0x102aad390     0       1       0               TASK_RUNNING
+0x102ab8000     1824    1930    1619    gdbus   TASK_RUNNING
+0x102ab9a00     1798    1929    1484    dconf worker    TASK_RUNNING
+0x102abb400     2560    2579    1662    Netlink Monitor TASK_RUNNING
+0x102abce00     1798    1921    1484    gmain   TASK_RUNNING
+0x102b50000     935     935     2       psimon  TASK_RUNNING
+0x102b51a00     1747    1817    1484    gdbus   TASK_RUNNING
+0x102b53400     2488    2513    1662    gnome-text-edit TASK_RUNNING
+0x102b54e00     2488    2512    1662    gnome-text-edit TASK_RUNNING
+0x102b68000     2488    2494    1662    [pango] fontcon TASK_RUNNING
+0x102b69a00     977     977     1       rtkit-daemon    TASK_RUNNING
+0x102b6b400     1746    1862    1484    dconf worker    TASK_RUNNING
+0x102b6ce00     2488    2506    1662    llvmpipe-0      TASK_RUNNING
+0x102b70000     1998    2013    1484    dconf worker    TASK_RUNNING
+0x102b71a00     2560    2615    1662    WRWorker#2      TASK_RUNNING
+0x102b73400     2560    2614    1662    WRWorker#1      TASK_RUNNING
+0x102b74e00     1998    2014    1484    evolution-calen TASK_RUNNING
+0x102b81790     0       1       1814985074      ☺       TASK_RUNNING
+0x102cc0000     1780    1881    1484    gdbus   TASK_RUNNING
+0x102cc1a00     730     730     1       systemd-logind  TASK_RUNNING
+0x102cc3400     521     521     2       kworker/u18:5   EXIT_DEAD
+0x102cc4e00     441     441     2       kworker/1:3     EXIT_DEAD
+0x102d58000     4186    4235    2560    ProfilerChild   TASK_RUNNING
+0x102d59a00     813     813     1       ModemManager    TASK_RUNNING
+0x102d5b400     793     793     1       wpa_supplicant  TASK_RUNNING
+0x102d5ce00     705     755     1       gmain   TASK_RUNNING
+0x102d98000     723     741     1       pool-spawner    TASK_RUNNING
+0x102d99a00     719     795     1       pool-spawner    TASK_RUNNING
+0x102d9b400     1774    1884    1484    gdbus   TASK_RUNNING
+0x102d9ce00     723     742     1       gmain   TASK_RUNNING
+0x1030f8000     1773    1864    1484    gmain   TASK_RUNNING
+0x1030f9a00     1475    1478    904     gdbus   TASK_RUNNING
+0x1030fb400     1781    1850    1484    pool-spawner    TASK_RUNNING
+0x1030fce00     1773    1863    1484    pool-spawner    TASK_RUNNING
+0x103300000     1057    1069    1       gdbus   TASK_RUNNING
+0x103301a00     1057    1067    1       gmain   TASK_RUNNING
+0x103303400     2628    2641    2560    Socket Thread   TASK_RUNNING
+0x103304e00     1784    1860    1484    gdbus   TASK_RUNNING
+0x1036b0000     2111    2128    1484    fuse_worker     TASK_RUNNING
+0x1036b1a00     2560    2651    1662    TRR Background  TASK_RUNNING
+0x1036b3400     2111    2123    1484    fuse mainloop   TASK_RUNNING
+0x1036b4e00     2052    2052    1744    ibus-engine-sim TASK_RUNNING
+0x1036b8000     2156    2156    1662    mutter-x11-fram TASK_RUNNING
+0x1036b9a00     2099    2177    1484    dconf worker    TASK_RUNNING
+0x1036bb400     2097    4614    1484    pool-10 EXIT_DEAD
+0x1036bce00     2560    2609    1662    Worker Launcher TASK_RUNNING
+0x1036c0000     2129    2157    1484    dconf worker    TASK_RUNNING
+0x1036c1a00     2099    2159    1484    pool-spawner    TASK_RUNNING
+0x1036c3400     2099    2160    1484    gmain   TASK_RUNNING
+0x1036c4e00     2099    2162    1484    gdbus   TASK_RUNNING
+0x1036c8000     2151    2152    1484    pool-spawner    TASK_RUNNING
+0x1036c9a00     2129    2155    1484    [pango] fontcon TASK_RUNNING
+0x1036cb400     2151    2154    1484    gdbus   TASK_RUNNING
+0x1036cce00     2151    2153    1484    gmain   TASK_RUNNING
+0x103758000     1797    1892    1484    dconf worker    TASK_RUNNING
+0x103759a00     901     915     1       gdbus   TASK_RUNNING
+0x10375b400     901     914     1       gmain   TASK_RUNNING
+0x10375ce00     1774    1774    1484    gsd-media-keys  TASK_RUNNING
+0x1039ed620     0       8       0       §       TASK_RUNNING
+0x103a68000     1057    1066    1       pool-spawner    TASK_RUNNING
+0x103a69a00     2560    2627    1662    IPC Launch      TASK_RUNNING
+0x103a6b400     1761    1761    2       kworker/u17:3   TASK_RUNNING
+0x103a6ce00     2560    2626    1662    SandboxReporter TASK_RUNNING
+0x103be8000     1057    1057    1       colord  TASK_RUNNING
+0x103be9a00     852     852     781     dhcpcd  TASK_RUNNING
+0x103beb400     1662    1667    1484    gdbus   TASK_RUNNING
+0x103bece00     762     762     706     avahi-daemon    TASK_RUNNING
+0x103bf0000     732     815     1       probing-thread  TASK_RUNNING
+0x103bf1a00     732     821     1       cleanup TASK_RUNNING
+0x103bf3400     2560    2624    1662    ImageIO TASK_RUNNING
+0x103bf4e00     716     786     1       gdbus   TASK_RUNNING
+0x103c28000     889     889     1       tgtd    TASK_RUNNING
+0x103c29a00     387     387     1       systemd-udevd   TASK_RUNNING
+0x103c2b400     901     901     1       cups-browsed    TASK_RUNNING
+0x103c2ce00     716     716     1       low-memory-moni TASK_RUNNING
+0x103c98000     1998    4568    1484    evolution-calen EXIT_DEAD
+0x103c99a00     1774    1876    1484    pool-spawner    TASK_RUNNING
+0x103c9b400     4188    4216    2560    AsyncSi~lThread TASK_RUNNING
+0x103c9ce00     4188    4218    2560    IPC I/O Child   TASK_RUNNING
+0x103e70000     719     794     1       gmain   TASK_RUNNING
+0x103e71a00     732     788     1       gdbus   TASK_RUNNING
+0x103e73400     1744    1800    1484    gmain   TASK_RUNNING
+0x103e74e00     723     787     1       gdbus   TASK_RUNNING
+0x103ec8000     707     707     1       cron    TASK_RUNNING
+0x103ec9a00     709     709     1       dbus-daemon     TASK_RUNNING
+0x103ecb400     503     503     2       kworker/R-crypt TASK_RUNNING
+0x103ecce00     791     791     2       psimon  TASK_RUNNING
+0x103f88000     2097    2192    1484    dconf worker    TASK_RUNNING
+0x103f89a00     1733    1759    1484    pool-spawner    TASK_RUNNING
+0x103f8b400     830     830     2       kworker/R-cfg80 TASK_RUNNING
+0x103f8ce00     1773    1773    1484    gsd-keyboard    TASK_RUNNING
+0x104100000     1824    1948    1619    dconf worker    TASK_RUNNING
+0x104101a00     1798    1941    1484    gdbus   TASK_RUNNING
+0x104103400     1824    1934    1619    [pango] fontcon TASK_RUNNING
+0x104104e00     1786    1933    1484    dconf worker    TASK_RUNNING
+0x1041b0000     4188    4237    2560    Timer   TASK_RUNNING
+0x1041b1a00     977     990     1       rtkit-daemon    TASK_RUNNING
+0x1041b3400     977     989     1       rtkit-daemon    TASK_RUNNING
+0x1041b4e00     4188    4236    2560    ImageIO TASK_RUNNING
+0x1041b8000     1998    4569    1484    evolution-calen EXIT_DEAD
+0x1041b9a00     2560    2761    1662    MemoryPoller    TASK_RUNNING
+0x1041bb400     2560    2605    1662    TaskCon~ller #3 TASK_RUNNING
+0x1041bce00     1904    1904    1484    gsd-printer     TASK_RUNNING
+0x1041c0000     1104    1168    1       pool-spawner    TASK_RUNNING
+0x1041c1a00     4186    4186    2560    Web Content     TASK_RUNNING
+0x1041c3400     1797    1875    1484    pool-spawner    TASK_RUNNING
+0x1041c4e00     2704    2708    2560    AsyncSi~lThread TASK_RUNNING
+0x1041d8000     2488    2514    1662    gnome-t:disk$0  TASK_RUNNING
+0x1041d9a00     1751    1751    1484    gsd-housekeepin TASK_RUNNING
+0x1041db400     1747    1747    1484    gsd-datetime    TASK_RUNNING
+0x1041dce00     1746    1746    1484    gsd-color       TASK_RUNNING
+0x1041e0000     2488    2510    1662    gnome-text-edit TASK_RUNNING
+0x1041e1a00     2488    2511    1662    gnome-text-edit TASK_RUNNING
+0x1041e3400     2488    2509    1662    llvmpipe-3      TASK_RUNNING
+0x1041e4e00     1774    1877    1484    gmain   TASK_RUNNING
+0x1041e8000     2129    2129    1484    xdg-desktop-por TASK_RUNNING
+0x1041e9a00     2125    2125    2111    fusermount3     TASK_RUNNING
+0x1041eb400     2105    2130    1484    gmain   TASK_RUNNING
+0x1041ece00     2111    2127    1484    fuse_worker     TASK_RUNNING
+0x1041f0000     2488    2507    1662    llvmpipe-1      TASK_RUNNING
+0x1041f1a00     1781    1868    1484    gdbus   TASK_RUNNING
+0x1041f3400     1773    1879    1484    gdbus   TASK_RUNNING
+0x1041f4e00     2488    2508    1662    llvmpipe-2      TASK_RUNNING
+0x10441c678     0       43      0               TASK_RUNNING
+0x104806328     0       137     0               TASK_RUNNING
+0x104980000     518     518     2       kworker/u18:4   TASK_RUNNING
+0x104981a00     782     782     780     dhcpcd  TASK_RUNNING
+0x104983400     4601    4602    4578    pool-spawner    EXIT_DEAD
+0x104984e00     781     781     780     dhcpcd  TASK_RUNNING
+0x104990000     732     740     1       pool-spawner    TASK_RUNNING
+0x104991a00     780     780     1       dhcpcd  TASK_RUNNING
+0x104993400     722     731     1       qemu-ga TASK_RUNNING
+0x104994e00     732     739     1       gmain   TASK_RUNNING
+0x104998000     783     783     780     dhcpcd  TASK_RUNNING
+0x104999a00     1783    1831    1484    pool-spawner    TASK_RUNNING
+0x10499b400     921     921     2       kworker/R-iw_cm TASK_RUNNING
+0x10499ce00     1784    1893    1484    dconf worker    TASK_RUNNING
+0x104e00000     4186    4207    2560    Socket Thread   TASK_RUNNING
+0x104e01a00     1801    1814    1619    gmain   TASK_RUNNING
+0x104e03400     1801    1811    1619    pool-spawner    TASK_RUNNING
+0x104e04e00     2560    2639    1662    FSBroker2628    TASK_RUNNING
+0x104e08000     1104    1173    1       gdbus   TASK_RUNNING
+0x104e09a00     4655    4655    4252    bash    EXIT_DEAD
+0x104e0b400     1104    1169    1       gmain   TASK_RUNNING
+0x104e0ce00     1104    1104    1       upowerd TASK_RUNNING
+0x104e10000     1745    1785    1484    gmain   TASK_RUNNING
+0x104e11a00     1614    1614    1484    gvfsd-fuse      TASK_RUNNING
+0x104e13400     1540    1540    1475    gdm-wayland-ses TASK_RUNNING
+0x104e14e00     2560    2610    1662    QuotaManager IO TASK_RUNNING
+0x1051e0000     850     850     781     dhcpcd  TASK_RUNNING
+0x1051e1a00     398     398     2       psimon  TASK_RUNNING
+0x1051e3400     4578    4594    1484    Telegram        TASK_RUNNING
+0x1051e4e00     2111    4613    1484    pool-4  EXIT_DEAD
+0x105650000     1783    1833    1484    dconf worker    TASK_RUNNING
+0x105651a00     4186    4206    2560    IPC I/O Child   TASK_RUNNING
+0x105653400     4186    4231    2560    ImageBridgeChld TASK_RUNNING
+0x105654e00     1783    1832    1484    gmain   TASK_RUNNING
+0x105660000     922     922     2       kworker/R-rdma_ TASK_RUNNING
+0x105661a00     901     913     1       pool-spawner    TASK_RUNNING
+0x105663400     1377    1386    1       pool-spawner    TASK_RUNNING
+0x105664e00     1781    1845    1484    gmain   TASK_RUNNING
+0x105750000     813     820     1       gdbus   TASK_RUNNING
+0x105751a00     813     817     1       pool-spawner    TASK_RUNNING
+0x105753400     813     816     1       gmain   TASK_RUNNING
+0x105754e00     886     886     1       cupsd   TASK_RUNNING
+0x105758000     2566    2566    1484    crashhelper     TASK_RUNNING
+0x105759a00     2560    2560    1662    firefox-esr     TASK_RUNNING
+0x10575b400     1773    1866    1484    dconf worker    TASK_RUNNING
+0x10575ce00     1746    1857    1484    gmain   TASK_RUNNING
+0x105840678     0       43      0               TASK_RUNNING
+0x105888000     2111    2119    1484    gmain   TASK_RUNNING
+0x105889a00     1662    2062    1484    [pango] fontcon TASK_RUNNING
+0x10588b400     2560    2590    1662    [pango] fontcon TASK_RUNNING
+0x10588ce00     2111    2118    1484    pool-spawner    TASK_RUNNING
+0x105890000     1932    1946    1484    JS Helper       TASK_RUNNING
+0x105891a00     1932    1947    1484    JS Helper       TASK_RUNNING
+0x105893400     2012    2012    1484    gvfs-afc-volume TASK_RUNNING
+0x105894e00     1932    1945    1484    JS Helper       TASK_RUNNING
+0x1058a0000     1475    1477    904     gmain   TASK_RUNNING
+0x1058a1a00     1475    1476    904     pool-spawner    TASK_RUNNING
+0x1058a3400     1751    1813    1484    gdbus   TASK_RUNNING
+0x1058a4e00     1783    1783    1484    gsd-sharing     TASK_RUNNING
+0x1058a8000     1509    1527    1484    module-rt       TASK_RUNNING
+0x1058a9a00     1486    1486    1484    (sd-pam)        TASK_RUNNING
+0x1058ab400     1662    1681    1484    gnome-shell     TASK_RUNNING
+0x1058ace00     1508    1518    1484    data-loop.0     TASK_RUNNING
+0x105900000     2560    4448    1662    StreamTrans #19 EXIT_DEAD
+0x105901a00     2560    2573    1662    gdbus   TASK_RUNNING
+0x105903400     1932    1932    1484    gjs     TASK_RUNNING
+0x105904e00     2560    4447    1662    StreamTrans #18 EXIT_DEAD
+0x105908000     1953    1953    1744    ibus-memconf    TASK_RUNNING
+0x105909a00     1954    1971    1744    pool-spawner    TASK_RUNNING
+0x10590b400     1954    1954    1744    ibus-extension- TASK_RUNNING
+0x10590ce00     1960    1960    1484    ibus-portal     TASK_RUNNING
+0x105910000     2559    2559    2547    nc      TASK_RUNNING
+0x105911a00     4437    4440    1       pool-spawner    EXIT_DEAD
+0x105913400     1815    1980    1619    pool-spawner    TASK_RUNNING
+0x105914e00     1954    1979    1744    gdbus   TASK_RUNNING
+0x105918000     4326    4326    1484    gnome-terminal  EXIT_DEAD
+0x105919a00     1508    1516    1484    module-rt       TASK_RUNNING
+0x10591b400     1781    1781    1484    gsd-screensaver TASK_RUNNING
+0x10591ce00     2560    4189    1662    FSBroker4186    TASK_RUNNING
+0x105920000     1998    2005    1484    pool-spawner    TASK_RUNNING
+0x105921a00     1998    2004    1484    gmain   TASK_RUNNING
+0x105923400     1990    1990    1484    goa-identity-se TASK_RUNNING
+0x105924e00     1998    2006    1484    gdbus   TASK_RUNNING
+0x105948000     1998    1998    1484    evolution-calen TASK_RUNNING
+0x105949a00     1990    1996    1484    gdbus   TASK_RUNNING
+0x10594b400     1990    1994    1484    gmain   TASK_RUNNING
+0x10594ce00     2007    2007    1484    gvfs-gphoto2-vo TASK_RUNNING
+0x105ae8000     2028    2037    1484    gmain   TASK_RUNNING
+0x105ae9a00     4531    4531    2       kworker/2:1     TASK_RUNNING
+0x105aeb400     2012    2017    1484    gmain   TASK_RUNNING
+0x105aece00     2012    2016    1484    pool-spawner    TASK_RUNNING
+0x105af0000     1780    1838    1484    gmain   TASK_RUNNING
+0x105af1a00     2560    2577    1662    IPC I/O Parent  TASK_RUNNING
+0x105af3400     1780    1841    1484    pool-spawner    TASK_RUNNING
+0x105af4e00     1954    1974    1744    dconf worker    TASK_RUNNING
+0x105af8000     1932    1940    1484    gmain   TASK_RUNNING
+0x105af9a00     4186    4212    2560    JS Watchdog     TASK_RUNNING
+0x105afb400     1745    1852    1484    dconf worker    TASK_RUNNING
+0x105afce00     1774    1883    1484    dconf worker    TASK_RUNNING
+0x105b00000     1983    2002    1484    dconf worker    TASK_RUNNING
+0x105b01a00     1904    1943    1484    gdbus   TASK_RUNNING
+0x105b03400     1932    1944    1484    JS Helper       TASK_RUNNING
+0x105b04e00     1932    1942    1484    gdbus   TASK_RUNNING
+0x105b10000     1377    1390    1       gdbus   TASK_RUNNING
+0x105b11a00     1815    1815    1619    evolution-alarm TASK_RUNNING
+0x105b13400     1377    1387    1       gmain   TASK_RUNNING
+0x105b14e00     1778    1905    1484    dconf worker    TASK_RUNNING
+0x105b18000     2654    2666    2560    AsyncSi~lThread TASK_RUNNING
+0x105b19a00     1662    1679    1484    llvmpipe-3      TASK_RUNNING
+0x105b1b400     1662    1680    1484    gnome-shell     TASK_RUNNING
+0x105b1ce00     1662    1678    1484    llvmpipe-2      TASK_RUNNING
+0x105b68000     1951    1987    1484    dconf worker    TASK_RUNNING
+0x105b69a00     1983    1983    1484    gvfs-udisks2-vo TASK_RUNNING
+0x105b6b400     1990    1993    1484    pool-spawner    TASK_RUNNING
+0x105b6ce00     4182    4195    2560    IPC I/O Child   TASK_RUNNING
+0x105bc6ad8     -1      256     0               TASK_RUNNING
+0x105d1d420     0       8       0       ☺       TASK_RUNNING
+0x105dc4678     0       43      0               TASK_RUNNING
+0x105e20000     2028    2028    1484    evolution-addre TASK_RUNNING
+0x105e21a00     1998    2025    1484    pool-3  TASK_RUNNING
+0x105e23400     2560    2604    1662    TaskCon~ller #2 TASK_RUNNING
+0x105e24e00     2032    2032    1484    gvfs-goa-volume TASK_RUNNING
+0x105e28000     1733    1769    1484    JS Helper       TASK_RUNNING
+0x105e29a00     1733    1771    1484    JS Helper       TASK_RUNNING
+0x105e2b400     1733    1772    1484    JS Helper       TASK_RUNNING
+0x105e2ce00     1733    1770    1484    JS Helper       TASK_RUNNING
+0x105e30000     1751    1812    1484    pool-spawner    TASK_RUNNING
+0x105e31a00     2540    2540    1484    gnome-terminal- TASK_RUNNING
+0x105e33400     1798    1798    1484    gsd-wacom       TASK_RUNNING
+0x105e34e00     1797    1797    1484    gsd-usb-protect TASK_RUNNING
+0x105e38000     2032    2033    1484    pool-spawner    TASK_RUNNING
+0x105e39a00     2021    2029    1484    gmain   TASK_RUNNING
+0x105e3b400     2021    2027    1484    pool-spawner    TASK_RUNNING
+0x105e3ce00     2032    2034    1484    gmain   TASK_RUNNING
+0x105e40000     2560    2602    1662    TaskCon~ller #0 TASK_RUNNING
+0x105e41a00     2012    2019    1484    gdbus   TASK_RUNNING
+0x105e43400     1998    2023    1484    pool-2  TASK_RUNNING
+0x105e44e00     2021    2021    1484    gvfs-mtp-volume TASK_RUNNING
+0x105e48000     2560    2578    1662    Timer   TASK_RUNNING
+0x105e49a00     1786    1886    1484    gmain   TASK_RUNNING
+0x105e4b400     1746    1885    1484    gdbus   TASK_RUNNING
+0x105e4ce00     4578    4584    1484    QDBusConnection TASK_RUNNING
+0x105e50000     4578    4591    1484    Concurrent Time TASK_RUNNING
+0x105e51a00     1744    4590    1484    pool-2  EXIT_DEAD
+0x105e53400     4182    4182    2560    Web Content     TASK_RUNNING
+0x105e54e00     1780    1780    1484    gsd-rfkill      TASK_RUNNING
+0x105e60000     2156    2169    1662    mutter-x11-fram TASK_RUNNING
+0x105e61a00     2156    2168    1662    mutter-x11-fram TASK_RUNNING
+0x105e63400     2156    2167    1662    llvmpipe-3      TASK_RUNNING
+0x105e64e00     2156    2170    1662    mutter-x11-fram TASK_RUNNING
+0x105e68000     3013    3013    3000    sd_espeak-ng    TASK_RUNNING
+0x105e69a00     2156    2172    1662    mutter-:disk$0  TASK_RUNNING
+0x105e6b400     2156    2171    1662    mutter-x11-fram TASK_RUNNING
+0x105e6ce00     3012    3012    3000    sd_espeak-ng-mb EXIT_ZOMBIE
+0x105e78000     1815    2104    1619    cal-client-dbus TASK_RUNNING
+0x105e79a00     1815    2100    1619    [pango] fontcon TASK_RUNNING
+0x105e7b400     4553    4555    1475    gmain   EXIT_DEAD
+0x105e7ce00     2032    2035    1484    gdbus   TASK_RUNNING
+0x105e80000     2097    2101    1484    gmain   TASK_RUNNING
+0x105e81a00     2097    2102    1484    pool-spawner    TASK_RUNNING
+0x105e83400     2560    2597    1662    JS Watchdog     TASK_RUNNING
+0x105e84e00     2647    2662    2560    AsyncSi~lThread TASK_RUNNING
+0x105e88000     1745    1787    1484    pool-spawner    TASK_RUNNING
+0x105e89a00     1779    1874    1484    gdbus   TASK_RUNNING
+0x105e8b400     1786    1786    1484    gsd-sound       TASK_RUNNING
+0x105e8ce00     1745    1788    1484    gdbus   TASK_RUNNING
+0x105e9a020     0       129     -1              TASK_RUNNING
+0x105fd78e8     0       786     0       ?       TASK_RUNNING
+0x106020000     2488    2498    1662    [pango] fontcon TASK_RUNNING
+0x106021a00     2954    2955    1484    pool-spawner    TASK_RUNNING
+0x106023400     4186    4210    2560    StyleThread#1   TASK_RUNNING
+0x106024e00     2954    2956    1484    gmain   TASK_RUNNING
+0x106088000     1506    1506    1484    dbus-daemon     TASK_RUNNING
+0x106089a00     1510    1522    1484    module-rt       TASK_RUNNING
+0x10608b400     1511    1521    1484    module-rt       TASK_RUNNING
+0x10608ce00     1510    1524    1484    gmain   TASK_RUNNING
+0x1060a8000     2007    2008    1484    pool-spawner    TASK_RUNNING
+0x1060a9a00     2012    2015    1484    gvfs-afc-volume TASK_RUNNING
+0x1060ab400     2007    2011    1484    gdbus   TASK_RUNNING
+0x1060ace00     2007    2009    1484    gmain   TASK_RUNNING
+0x1060b0000     1951    1977    1484    pool-spawner    TASK_RUNNING
+0x1060b1a00     1960    1964    1484    gdbus   TASK_RUNNING
+0x1060b3400     1960    1963    1484    pool-spawner    TASK_RUNNING
+0x1060b4e00     1951    1975    1484    gmain   TASK_RUNNING
+0x1060d0000     2560    2623    1662    CanvasRenderer  TASK_RUNNING
+0x1060d1a00     1904    1936    1484    pool-spawner    TASK_RUNNING
+0x1060d3400     1904    1937    1484    gmain   TASK_RUNNING
+0x1060d4e00     1932    1939    1484    pool-spawner    TASK_RUNNING
+0x1060d8000     2647    4667    2560    StreamTrans #32 EXIT_DEAD
+0x1060d9a00     1744    1834    1484    gdbus   TASK_RUNNING
+0x1060db400     2647    4672    2560    StreamTrans #33 TASK_RUNNING
+0x1060dce00     4578    4660    1484    Thread (pooled) EXIT_DEAD
+0x1060f0000     2105    2133    1484    dconf worker    TASK_RUNNING
+0x1060f1a00     2105    2132    1484    gdbus   TASK_RUNNING
+0x1060f3400     2105    2131    1484    pool-spawner    TASK_RUNNING
+0x1060f4e00     2151    2151    1484    ibus-x11        TASK_RUNNING
+0x1063c7620     0       8       0       ☺       TASK_RUNNING
+0x106458000     908     908     2       kworker/R-ib_nl TASK_RUNNING
+0x106459a00     1983    2001    1484    gdbus   TASK_RUNNING
+0x10645b400     1747    1854    1484    dconf worker    TASK_RUNNING
+0x10645ce00     907     907     2       kworker/R-ib_mc TASK_RUNNING
+0x1065d23c0     0       8       0               TASK_RUNNING
+0x1066d0000     705     789     1       gdbus   TASK_RUNNING
+0x1066d1a00     2647    2867    2560    RemoteLzyStream TASK_RUNNING
+0x1066d3400     790     822     1       gmain   TASK_RUNNING
+0x1066d4e00     4663    4663    4662    unix_chkpwd     EXIT_DEAD
+0x1066d8000     706     706     1       avahi-daemon    TASK_RUNNING
+0x1066d9a00     792     792     2       kworker/u19:3   TASK_RUNNING
+0x1066db400     705     705     1       accounts-daemon TASK_RUNNING
+0x1066dce00     904     916     1       pool-spawner    TASK_RUNNING
+0x1068e0000     4394    4394    4252    bash    EXIT_DEAD
+0x1068e1a00     2704    4393    2560    StreamTrans #6  EXIT_DEAD
+0x1068e3400     4395    4395    4252    bash    EXIT_DEAD
+0x1068e4e00     4396    4396    4252    bash    EXIT_DEAD
+0x106a00000     2560    2612    1662    Renderer        TASK_RUNNING
+0x106a01a00     2560    2613    1662    WRWorker#0      TASK_RUNNING
+0x106a03400     1733    1767    1484    gdbus   TASK_RUNNING
+0x106a04e00     2560    2611    1662    Softwar~cThread TASK_RUNNING
+0x1071e8000     4578    4632    1484    Telegram        TASK_RUNNING
+0x1071e9a00     4578    4633    1484    Telegra:disk$0  TASK_RUNNING
+0x1071eb400     2628    2634    2560    IPC I/O Child   TASK_RUNNING
+0x1071ece00     4578    4631    1484    Telegram        TASK_RUNNING
+0x1074d8000     4188    4228    2560    StyleThread#2   TASK_RUNNING
+0x1074d9a00     2028    2046    1484    pool-2  TASK_RUNNING
+0x1074db400     2785    2796    2560    AsyncSi~lThread TASK_RUNNING
+0x1074dce00     2156    2165    1662    llvmpipe-1      TASK_RUNNING
+0x1075e8000     1784    1784    1484    gsd-smartcard   TASK_RUNNING
+0x1075e9a00     2654    4257    2560    Timer   TASK_RUNNING
+0x1075eb400     1377    1377    1       power-profiles- TASK_RUNNING
+0x1075ece00     1376    1376    1       agetty  TASK_RUNNING
+0x107620000     2560    2569    1662    gmain   TASK_RUNNING
+0x107621a00     1951    1985    1484    gdbus   TASK_RUNNING
+0x107623400     2566    2567    1484    crashhelper     TASK_RUNNING
+0x107624e00     2560    2568    1662    pool-spawner    TASK_RUNNING
+0x107650000     1751    1796    1484    gmain   TASK_RUNNING
+0x107651a00     2647    2647    2560    Privileged Cont TASK_RUNNING
+0x107653400     1779    1779    1484    gsd-print-notif TASK_RUNNING
+0x107654e00     1778    1778    1484    gsd-power       TASK_RUNNING
+0x1076b0000     1953    1959    1744    gdbus   TASK_RUNNING
+0x1076b1a00     1953    1958    1744    gmain   TASK_RUNNING
+0x1076b3400     1953    1957    1744    pool-spawner    TASK_RUNNING
+0x1076b4e00     2628    2628    2560    Socket Process  TASK_RUNNING
+0x107a10000     4266    4266    2       scsi_eh_6       TASK_RUNNING
+0x107a11a00     4251    4251    4242    sshd-session    TASK_RUNNING
+0x107a13400     1998    4567    1484    evolution-calen EXIT_DEAD
+0x107a14e00     4188    4241    2560    ProfilerChild   TASK_RUNNING
+0x10a338000     360     360     1       systemd-timesyn TASK_RUNNING
+0x10a339a00     2560    2682    1662    AudioIP~ver RPC TASK_RUNNING
+0x10a33b400     719     796     1       gdbus   TASK_RUNNING
+0x10a33ce00     897     897     1       sshd    TASK_RUNNING
+0x10aa18000     50      50      2       kworker/R-inet_ TASK_RUNNING
+0x10aa19a00     49      49      2       kdevtmpfs       TASK_RUNNING
+0x10aa1b400     48      48      2       kworker/u18:2   EXIT_DEAD
+0x10aa1ce00     47      47      2       kworker/u18:1   EXIT_DEAD
+0x10ab20000     333     333     1       systemd-journal TASK_RUNNING
+0x10ab21a00     2560    2649    1662    GMPThread       TASK_RUNNING
+0x10ab23400     80      80      2       kworker/R-kthro TASK_RUNNING
+0x10ab24e00     237     237     2       kworker/2:2     TASK_RUNNING
+0x10ab28000     1733    1760    1484    gmain   TASK_RUNNING
+0x10ab29a00     86      86      2       irq/26-aerdrv   TASK_RUNNING
+0x10ab2b400     85      85      2       irq/25-aerdrv   TASK_RUNNING
+0x10ab2ce00     84      84      2       irq/24-aerdrv   TASK_RUNNING
+0x10ab38000     89      89      2       irq/29-aerdrv   TASK_RUNNING
+0x10ab39a00     88      88      2       irq/28-aerdrv   TASK_RUNNING
+0x10ab3b400     87      87      2       irq/27-aerdrv   TASK_RUNNING
+0x10ab3ce00     90      90      2       irq/30-aerdrv   TASK_RUNNING
+0x10ae65978     0       6       0               TASK_RUNNING
+0x10b690000     2156    2164    1662    llvmpipe-0      TASK_RUNNING
+0x10b691a00     2111    2111    1484    xdg-document-po TASK_RUNNING
+0x10b693400     2129    2137    1484    gmain   TASK_RUNNING
+0x10b694e00     2129    2136    1484    pool-spawner    TASK_RUNNING
+0x10b7a8000     1815    1984    1619    dconf worker    TASK_RUNNING
+0x10b7a9a00     1815    1981    1619    gmain   TASK_RUNNING
+0x10b7ab400     2560    2580    1662    Socket Thread   TASK_RUNNING
+0x10b7ace00     1815    1986    1619    gdbus   TASK_RUNNING
+0x10b7b0000     1797    1861    1484    gmain   TASK_RUNNING
+0x10b7b1a00     1511    1529    1484    data-loop.0     TASK_RUNNING
+0x10b7b3400     1954    1972    1744    gmain   TASK_RUNNING
+0x10b7b4e00     1510    1525    1484    pool-spawner    TASK_RUNNING
+0x10ba38000     2097    2103    1484    gdbus   TASK_RUNNING
+0x10ba39a00     2560    2657    1662    SwComposite     TASK_RUNNING
+0x10ba3b400     1998    2116    1484    pool-4  TASK_RUNNING
+0x10ba3ce00     4186    4224    2560    Timer   TASK_RUNNING
+0x10ba48000     1983    1999    1484    pool-spawner    TASK_RUNNING
+0x10ba49a00     2560    2581    1662    IPDL Background TASK_RUNNING
+0x10ba4b400     3033    3033    3000    sd_espeak-ng    TASK_RUNNING
+0x10ba4ce00     1705    1992    1484    cal-client-dbus TASK_RUNNING
+0x10bde8000     92      92      2       irq/32-aerdrv   TASK_RUNNING
+0x10bde9a00     91      91      2       irq/31-aerdrv   TASK_RUNNING
+0x10bdeb400     94      94      2       irq/34-aerdrv   TASK_RUNNING
+0x10bdece00     93      93      2       irq/33-aerdrv   TASK_RUNNING
+0x10bdf8000     97      97      2       irq/37-aerdrv   TASK_RUNNING
+0x10bdf9a00     96      96      2       irq/36-aerdrv   TASK_RUNNING
+0x10bdfb400     95      95      2       irq/35-aerdrv   TASK_RUNNING
+0x10bdfce00     98      98      2       kworker/R-acpi_ TASK_RUNNING
+0x10be00000     2560    4491    1662    StreamTrans #27 EXIT_DEAD
+0x10be01a00     102     102     2       kworker/1:1H    TASK_RUNNING
+0x10be03400     101     101     2       kworker/R-ipv6_ TASK_RUNNING
+0x10be04e00     100     100     2       kworker/R-mld   TASK_RUNNING
+0x10bf78000     107     107     2       kworker/R-kstrp TASK_RUNNING
+0x10bf79a00     719     719     1       polkitd TASK_RUNNING
+0x10bf7b400     722     722     1       qemu-ga TASK_RUNNING
+0x10bf7ce00     723     723     1       switcheroo-cont TASK_RUNNING
+0x10bf80000     110     110     2       kworker/u22:0   TASK_RUNNING
+0x10bf81a00     109     109     2       kworker/u21:0   TASK_RUNNING
+0x10bf83400     112     112     2       kworker/u24:0   TASK_RUNNING
+0x10bf84e00     111     111     2       kworker/u23:0   TASK_RUNNING
+0x10bf88000     2560    4647    1662    SSL Cert #79    EXIT_DEAD
+0x10bf89a00     113     113     2       kworker/u25:0   TASK_RUNNING
+0x10bf8b400     120     120     2       kworker/u19:2   TASK_RUNNING
+0x10bf8ce00     4578    4592    1484    threaded-ml     TASK_RUNNING
+0x10bfa0000     1751    1855    1484    dconf worker    TASK_RUNNING
+0x10bfa1a00     4186    4208    2560    HTML5 Parser    TASK_RUNNING
+0x10bfa3400     241     241     2       watchdogd       TASK_RUNNING
+0x10bfa4e00     1746    1856    1484    pool-spawner    TASK_RUNNING
+0x10c00e0bc     1824    1930    1619    gdbus   TASK_RUNNING
+0x10c02d4bc     2560    2579    1662            TASK_RUNNING
+0x10c8c8000     249     249     2       scsi_eh_3       TASK_RUNNING
+0x10c8c9a00     247     247     2       scsi_eh_2       TASK_RUNNING
+0x10c8cb400     248     248     2       kworker/R-scsi_ TASK_RUNNING
+0x10c8cce00     250     250     2       kworker/R-scsi_ TASK_RUNNING
+0x10c8d0000     242     242     2       kworker/R-ata_s TASK_RUNNING
+0x10c8d1a00     243     243     2       scsi_eh_0       TASK_RUNNING
+0x10c8d3400     869     869     781     dhcpcd  TASK_RUNNING
+0x10c8d4e00     235     235     2       kworker/2:1H    TASK_RUNNING
+0x10c8e0000     790     824     1       gdbus   TASK_RUNNING
+0x10c8e1a00     1648    1648    1619    at-spi-bus-laun TASK_RUNNING
+0x10c8e3400     905     905     2       kworker/R-ib-co TASK_RUNNING
+0x10c8e4e00     790     823     1       pool-spawner    TASK_RUNNING
+0x10c8f8000     245     245     2       scsi_eh_1       TASK_RUNNING
+0x10c8f9a00     166     166     2       kworker/0:1H    TASK_RUNNING
+0x10c8fb400     244     244     2       kworker/R-scsi_ TASK_RUNNING
+0x10c8fce00     246     246     2       kworker/R-scsi_ TASK_RUNNING
+0x10dcc8000     256     256     2       kworker/u20:7   EXIT_DEAD
+0x10dcc9a00     255     255     2       kworker/u20:6   EXIT_DEAD
+0x10dccb400     254     254     2       kworker/R-scsi_ TASK_RUNNING
+0x10dccce00     253     253     2       scsi_eh_5       TASK_RUNNING
+0x10dcd8000     4664    4664    4662    sudo    TASK_RUNNING
+0x10dcd9a00     303     303     2       kworker/3:3     TASK_RUNNING
+0x10dcdb400     2560    4503    1662    StreamTrans #31 EXIT_DEAD
+0x10dcdce00     2560    4501    1662    StreamTrans #29 EXIT_DEAD
+0x10dce0000     318     318     2       kworker/0:2     TASK_RUNNING
+0x10dce1a00     300     300     2       hwrng   TASK_RUNNING
+0x10dce3400     285     285     2       kworker/R-ext4- TASK_RUNNING
+0x10dce4e00     284     284     2       jbd2/vda2-8     TASK_RUNNING
+0x10dee0000     716     744     1       pool-spawner    TASK_RUNNING
+0x10dee1a00     1778    1894    1484    gdbus   TASK_RUNNING
+0x10dee3400     716     745     1       gmain   TASK_RUNNING
+0x10dee4e00     732     732     1       udisksd TASK_RUNNING
+0x133c5e5f0     0       32      0       %       TASK_RUNNING
+0x134330000     2628    2632    2560    AsyncSi~lThread TASK_RUNNING
+0x134331a00     1475    1475    904     gdm-session-wor TASK_RUNNING
+0x134333400     4182    4213    2560    Timer   TASK_RUNNING
+0x134334e00     1605    1605    1484    gvfsd   TASK_RUNNING
+0x134340000     1688    1691    1484    gdbus   TASK_RUNNING
+0x134341a00     1778    1888    1484    pool-spawner    TASK_RUNNING
+0x134343400     1801    1801    1619    gsd-disk-utilit TASK_RUNNING
+0x134344e00     1778    1889    1484    gmain   TASK_RUNNING
+0x134350000     1824    1911    1619    gmain   TASK_RUNNING
+0x134351a00     2560    2571    1662    WaylandProxy    TASK_RUNNING
+0x134353400     1798    1920    1484    pool-spawner    TASK_RUNNING
+0x134354e00     1824    1915    1619    pool-spawner    TASK_RUNNING
+0x134358000     2129    2138    1484    gdbus   TASK_RUNNING
+0x134359a00     1815    2094    1619    evolution-alarm TASK_RUNNING
+0x13435b400     1662    2078    1484    module-rt       TASK_RUNNING
+0x13435ce00     2156    2166    1662    llvmpipe-2      TASK_RUNNING
+0x134360000     1786    1899    1484    gdbus   TASK_RUNNING
+0x134361a00     2560    2594    1662    StyleThread#1   TASK_RUNNING
+0x134363400     2560    2593    1662    HTML5 Parser    TASK_RUNNING
+0x134364e00     2560    2595    1662    StyleThread#2   TASK_RUNNING
+0x134380000     2560    2599    1662    Cache2 I/O      TASK_RUNNING
+0x134381a00     2560    2600    1662    Cookie  TASK_RUNNING
+0x134383400     1619    1631    1484    dconf worker    TASK_RUNNING
+0x134384e00     2540    2545    1484    gdbus   TASK_RUNNING
+0x134388000     2488    2490    1662    pool-spawner    TASK_RUNNING
+0x134389a00     1797    1880    1484    gdbus   TASK_RUNNING
+0x13438b400     2488    2491    1662    gmain   TASK_RUNNING
+0x13438ce00     1951    1951    1484    goa-daemon      TASK_RUNNING
+0x134390000     1512    1517    1484    gdbus   TASK_RUNNING
+0x134391a00     1590    1590    1484    gcr-ssh-agent   TASK_RUNNING
+0x134393400     1484    1484    1       systemd TASK_RUNNING
+0x134394e00     1512    1519    1484    timer   TASK_RUNNING
+0x1343b8000     2560    2603    1662    TaskCon~ller #1 TASK_RUNNING
+0x1343b9a00     2021    2031    1484    gdbus   TASK_RUNNING
+0x1343bb400     1998    2026    1484    book-client-dbu TASK_RUNNING
+0x1343bce00     2105    2105    1484    gsd-xsettings   TASK_RUNNING
+0x13b9a0000     1509    1509    1484    pipewire        TASK_RUNNING
+0x13b9a1a00     1508    1508    1484    pipewire        TASK_RUNNING
+0x13b9a3400     1512    1514    1484    pool-spawner    TASK_RUNNING
+0x13b9a4e00     1512    1515    1484    gmain   TASK_RUNNING
+0x13b9b0000     1513    1513    1484    mpris-proxy     TASK_RUNNING
+0x13b9b1a00     1512    1512    1484    gnome-keyring-d TASK_RUNNING
+0x13b9b3400     1511    1511    1484    pipewire-pulse  TASK_RUNNING
+0x13b9b4e00     1510    1510    1484    wireplumber     TASK_RUNNING
+0x13b9d0000     1510    1533    1484    data-loop.0     TASK_RUNNING
+0x13b9d1a00     1540    1544    1475    gdbus   TASK_RUNNING
+0x13b9d3400     1540    1542    1475    pool-spawner    TASK_RUNNING
+0x13b9d4e00     1540    1541    1475    gmain   TASK_RUNNING
+0x13b9d8000     1662    1682    1484    gnome-shell     TASK_RUNNING
+0x13b9d9a00     1545    1545    1540    gnome-session-b TASK_RUNNING
+0x13b9db400     1510    1589    1484    wireplumber-ust TASK_RUNNING
+0x13b9dce00     1510    1588    1484    wireplumber-ust TASK_RUNNING
+0x13b9e8000     1510    1591    1484    wireplumber     TASK_RUNNING
+0x13b9e9a00     1648    1657    1619    dconf worker    TASK_RUNNING
+0x13b9eb400     1648    1656    1619    gmain   TASK_RUNNING
+0x13b9ece00     1614    1624    1484    gdbus   TASK_RUNNING
+0x13b9f0000     1619    1626    1484    pool-spawner    TASK_RUNNING
+0x13b9f1a00     1614    1620    1484    fuse_worker     TASK_RUNNING
+0x13b9f3400     1619    1629    1484    gdbus   TASK_RUNNING
+0x13b9f4e00     1619    1627    1484    gmain   TASK_RUNNING
+0x13baf0000     1662    1676    1484    llvmpipe-0      TASK_RUNNING
+0x13baf1a00     1662    1672    1484    JS Helper       TASK_RUNNING
+0x13baf3400     1662    1677    1484    llvmpipe-1      TASK_RUNNING
+0x13baf4e00     1662    1674    1484    KMS thread      TASK_RUNNING
+0x13baf8000     1510    1532    1484    gdbus   TASK_RUNNING
+0x13baf9a00     1545    1586    1540    dconf worker    TASK_RUNNING
+0x13bafb400     1545    1585    1540    gdbus   TASK_RUNNING
+0x13bafce00     1545    1584    1540    gmain   TASK_RUNNING
+0x13bb00000     1592    1598    1484    gmain   TASK_RUNNING
+0x13bb01a00     2704    2704    2560    Isolated Web Co TASK_RUNNING
+0x13bb03400     1703    1703    1484    xdg-permission- TASK_RUNNING
+0x13bb04e00     1593    1593    1484    ssh-agent       TASK_RUNNING
+0x13bb08000     1590    1597    1484    gmain   TASK_RUNNING
+0x13bb09a00     1590    1596    1484    pool-spawner    TASK_RUNNING
+0x13bb0b400     1592    1592    1484    gnome-session-c TASK_RUNNING
+0x13bb0ce00     1545    1583    1540    pool-spawner    TASK_RUNNING
+0x13bb10000     1614    1623    1484    gmain   TASK_RUNNING
+0x13bb11a00     1605    1610    1484    gmain   TASK_RUNNING
+0x13bb13400     1605    1611    1484    gdbus   TASK_RUNNING
+0x13bb14e00     1605    1609    1484    pool-spawner    TASK_RUNNING
+0x13c504620     0       8       0               TASK_RUNNING
+0x13c570000     1662    1671    1484    JS Helper       TASK_RUNNING
+0x13c571a00     1662    1668    1484    dconf worker    TASK_RUNNING
+0x13c573400     1662    1669    1484    JS Helper       TASK_RUNNING
+0x13c574e00     1662    1670    1484    JS Helper       TASK_RUNNING
+0x13c578000     1662    1664    1484    pool-spawner    TASK_RUNNING
+0x13c579a00     1662    1665    1484    gmain   TASK_RUNNING
+0x13c57b400     2540    2541    1484    pool-spawner    TASK_RUNNING
+0x13c57ce00     2540    2542    1484    gmain   TASK_RUNNING
+0x13c580000     1662    1684    1484    gnome-s:disk$0  TASK_RUNNING
+0x13c581a00     1662    1683    1484    gnome-shell     TASK_RUNNING
+0x13c583400     1703    1713    1484    gdbus   TASK_RUNNING
+0x13c584e00     1662    1685    1484    Mutter Input Th TASK_RUNNING
+0x13c588000     1779    1873    1484    pool-spawner    TASK_RUNNING
+0x13c589a00     1744    1744    1484    ibus-daemon     TASK_RUNNING
+0x13c58b400     1779    1872    1484    gmain   TASK_RUNNING
+0x13c58ce00     1745    1745    1484    gsd-a11y-settin TASK_RUNNING
+0x13c5a0000     2560    2617    1662    WRWorkerLP#0    TASK_RUNNING
+0x13c5a1a00     1648    1659    1619    gdbus   TASK_RUNNING
+0x13c5a3400     1688    1688    1484    at-spi2-registr TASK_RUNNING
+0x13c5a4e00     2560    2616    1662    WRWorker#3      TASK_RUNNING
+0x13c5b0000     1705    1707    1484    gmain   TASK_RUNNING
+0x13c5b1a00     1705    1706    1484    pool-spawner    TASK_RUNNING
+0x13c5b3400     1705    1705    1484    gnome-shell-cal TASK_RUNNING
+0x13c5b4e00     1983    2000    1484    gmain   TASK_RUNNING
+0x13c5b8000     1705    1715    1484    gnome-shell-cal TASK_RUNNING
+0x13c5b9a00     1705    1714    1484    dconf worker    TASK_RUNNING
+0x13c5bb400     2647    2675    2560    ImageIO TASK_RUNNING
+0x13c5bce00     1705    1709    1484    gdbus   TASK_RUNNING
+0x13c5c0000     1716    1719    1484    pool-spawner    TASK_RUNNING
+0x13c5c1a00     1716    1716    1484    evolution-sourc TASK_RUNNING
+0x13c5c3400     1716    1721    1484    dconf worker    TASK_RUNNING
+0x13c5c4e00     1716    1720    1484    gmain   TASK_RUNNING
+0x13c608000     1614    1622    1484    pool-spawner    TASK_RUNNING
+0x13c609a00     1614    1621    1484    fuse_worker     TASK_RUNNING
+0x13c60b400     1619    1619    1484    gnome-session-b TASK_RUNNING
+0x13c60ce00     2488    2488    1662    gnome-text-edit TASK_RUNNING
+0x13c610000     1648    1655    1619    pool-spawner    TASK_RUNNING
+0x13c611a00     2560    2575    1662    glean.dispatche TASK_RUNNING
+0x13c613400     2560    2574    1662    dconf worker    TASK_RUNNING
+0x13c614e00     1614    1625    1484    gvfs-fuse-sub   TASK_RUNNING
+0x13c618000     1661    1661    1648    dbus-daemon     TASK_RUNNING
+0x13c619a00     1688    1690    1484    gmain   TASK_RUNNING
+0x13c61b400     1688    1689    1484    pool-spawner    TASK_RUNNING
+0x13c61ce00     1662    1662    1484    gnome-shell     TASK_RUNNING
+0x13c628000     2560    2619    1662    WRWorkerLP#2    TASK_RUNNING
+0x13c629a00     1716    1723    1484    gdbus   TASK_RUNNING
+0x13c62b400     2099    2179    1484    pool-1  TASK_RUNNING
+0x13c62ce00     2560    2618    1662    WRWorkerLP#1    TASK_RUNNING
+0x13c630000     2028    2043    1484    dconf worker    TASK_RUNNING
+0x13c631a00     2028    2039    1484    gdbus   TASK_RUNNING
+0x13c633400     2028    2038    1484    pool-spawner    TASK_RUNNING
+0x13c634e00     2028    2044    1484    evolution-addre TASK_RUNNING
+0x13c638000     2052    2055    1744    gdbus   TASK_RUNNING
+0x13c639a00     2052    2054    1744    gmain   TASK_RUNNING
+0x13c63b400     2052    2053    1744    pool-spawner    TASK_RUNNING
+0x13c63ce00     2560    2620    1662    WRWorkerLP#3    TASK_RUNNING
+0x13f41e4bc     1798    1920    1484            TASK_RUNNING
+0x141100000     1703    1710    1484    pool-spawner    TASK_RUNNING
+0x141101a00     1801    1819    1619    gdbus   TASK_RUNNING
+0x141103400     2560    4522    1662    StreamTrans #38 EXIT_DEAD
+0x141104e00     1703    1711    1484    gmain   TASK_RUNNING
+0x141108000     2647    2674    2560    RemVidChild     TASK_RUNNING
+0x141109a00     1960    1962    1484    gmain   TASK_RUNNING
+0x14110b400     1824    1824    1619    gnome-software  TASK_RUNNING
+0x14110ce00     1786    1887    1484    pool-spawner    TASK_RUNNING
+0x141110000     1733    1733    1484    gjs     TASK_RUNNING
+0x141111a00     1784    1837    1484    pool-spawner    TASK_RUNNING
+0x141113400     1783    1842    1484    gdbus   TASK_RUNNING
+0x141114e00     1784    1836    1484    gmain   TASK_RUNNING
+0x1412b8000     1744    1799    1484    pool-spawner    TASK_RUNNING
+0x1412b9a00     1747    1795    1484    pool-spawner    TASK_RUNNING
+0x1412bb400     1747    1792    1484    gmain   TASK_RUNNING
+0x1412bce00     1736    1736    1662    Xwayland        TASK_RUNNING
+0x1413a8000     2097    2097    1484    xdg-desktop-por TASK_RUNNING
+0x1413a9a00     2099    2099    1484    localsearch-3   TASK_RUNNING
+0x1413ab400     2654    2654    2560    RDD Process     TASK_RUNNING
+0x1413ace00     2111    2120    1484    gdbus   TASK_RUNNING
+0x149189ebc     1824    1915    1619    pool-spawner    TASK_RUNNING
+0x14ab18000     2156    2175    1662    gmain   TASK_RUNNING
+0x14ab19a00     2156    2176    1662    gdbus   TASK_RUNNING
+0x14ab1b400     2156    2174    1662    pool-spawner    TASK_RUNNING
+0x14ab1ce00     2156    2161    1662    [pango] fontcon TASK_RUNNING
+0x14ab20000     2628    2642    2560    ProfilerChild   TASK_RUNNING
+0x14ab21a00     3000    3000    1484    speech-dispatch TASK_RUNNING
+0x14ab23400     2628    2643    2560    Timer   TASK_RUNNING
+0x14ab24e00     2193    2193    1484    xdg-desktop-por TASK_RUNNING
+0x14ab28000     2540    2544    1484    dconf worker    TASK_RUNNING
+0x14ab29a00     2540    2546    1484    [pango] fontcon TASK_RUNNING
+0x14ab2b400     2547    2547    2540    bash    TASK_RUNNING
+0x14ab2ce00     2156    2202    1662    dconf worker    TASK_RUNNING
+0x14ab30000     2249    2250    4543744 gmain   EXIT_DEAD
+0x14ab31a00     2249    2249    4543744 appstreamcli    EXIT_DEAD
+0x14ab33400     2249    2252    4543744 pool-spawner    EXIT_DEAD
+0x14ab34e00     2251    2251    2249    tar     EXIT_DEAD
+0x153158000     2099    2182    1484    SPARQL endpoint TASK_RUNNING
+0x153159a00     2560    2653    1662    FSBroker2647    TASK_RUNNING
+0x15315b400     2560    2652    1662    ImageBridgeChld TASK_RUNNING
+0x15315ce00     2099    2183    1484    Monitor thread  TASK_RUNNING
+0x153160000     2193    2194    1484    pool-spawner    TASK_RUNNING
+0x153161a00     2097    2199    1484    module-rt       TASK_RUNNING
+0x153163400     2193    2197    1484    dconf worker    TASK_RUNNING
+0x153164e00     2193    2195    1484    gmain   TASK_RUNNING
+0x153168000     4186    4203    2560    AsyncSi~lThread TASK_RUNNING
+0x153169a00     2560    2621    1662    WrGlyph~terizer TASK_RUNNING
+0x15316b400     2097    2200    1484    background moni TASK_RUNNING
+0x15316ce00     2560    2622    1662    Compositor      TASK_RUNNING
+0x153180000     4546    4546    2       kworker/3:0     TASK_RUNNING
+0x153181a00     2560    2655    1662    ProcessHangMon  TASK_RUNNING
+0x153183400     2213    2213    1       fwupd   TASK_RUNNING
+0x153184e00     2488    2493    1662    gdbus   TASK_RUNNING
+0x153190000     3030    3030    3000    sd_dummy        TASK_RUNNING
+0x153191a00     3030    3031    3000    sd_dummy        TASK_RUNNING
+0x153193400     2193    2198    1484    gdbus   TASK_RUNNING
+0x153194e00     3030    3032    3000    threaded-ml     TASK_RUNNING
+0x153198000     2560    2625    1662    Permission      TASK_RUNNING
+0x153199a00     1824    2205    1619    gs-icon-downloa TASK_RUNNING
+0x15319b400     1824    2203    1619    gs-plugin-appst TASK_RUNNING
+0x15319ce00     2560    2564    1662    AsyncSi~lThread TASK_RUNNING
+0x1531a0000     2213    2218    1       pool-spawner    TASK_RUNNING
+0x1531a1a00     2213    2217    1       gmain   TASK_RUNNING
+0x1531a3400     2488    2492    1662    dconf worker    TASK_RUNNING
+0x1531a4e00     2213    2219    1       gdbus   TASK_RUNNING
+0x15324c3f8     0       56      0               TASK_RUNNING

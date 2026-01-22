@@ -1,0 +1,137 @@
+PS C:\Users\danib\Desktop\Windows\RAM> vol -f .\memdump.mem windows.sessions.Sessions
+Volatility 3 Framework 2.26.2
+Progress:  100.00               PDB scanning finished
+Session ID      Session Type    Process ID      Process User Name       Create Time
+
+N/A     -       4       System  -       2026-01-17 18:03:48.000000 UTC
+N/A     -       92      Registry        -       2026-01-17 18:03:47.000000 UTC
+N/A     -       392     smss.exe        -       2026-01-17 18:03:48.000000 UTC
+0       -       540     csrss.exe       /SYSTEM 2026-01-17 18:03:50.000000 UTC
+0       -       612     wininit.exe     -       2026-01-17 18:03:50.000000 UTC
+0       -       728     services.exe    /SYSTEM 2026-01-17 18:03:50.000000 UTC
+0       -       772     lsass.exe       /SYSTEM 2026-01-17 18:03:50.000000 UTC
+0       -       852     fontdrvhost.ex  -       2026-01-17 18:03:50.000000 UTC
+0       -       900     svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       992     svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       444     svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       1072    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:50.000000 UTC
+0       -       1084    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:50.000000 UTC
+0       -       1140    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:50.000000 UTC
+0       -       1256    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       1300    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       1308    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:50.000000 UTC
+0       -       1324    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:50.000000 UTC
+0       -       1348    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       1404    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       1488    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       1612    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       1732    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:50.000000 UTC
+0       -       1800    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:50.000000 UTC
+0       -       1808    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       1844    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:50.000000 UTC
+0       -       1852    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:50.000000 UTC
+0       -       2012    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2040    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:51.000000 UTC
+0       -       1384    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       1664    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:51.000000 UTC
+0       -       2068    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2124    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:51.000000 UTC
+0       -       2212    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2284    audiodg.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:51.000000 UTC
+0       -       2292    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:51.000000 UTC
+0       -       2304    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:51.000000 UTC
+0       -       2412    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2500    spoolsv.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2532    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:51.000000 UTC
+0       -       2580    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2736    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2748    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:51.000000 UTC
+0       -       2760    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2776    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2828    MpDefenderCore  WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2860    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2884    ssh-agent.exe   -       2026-01-17 18:03:51.000000 UTC
+0       -       2896    sshd.exe        WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2904    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2932    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2940    MsMpEng.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       2956    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       3040    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:51.000000 UTC
+0       -       3712    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:52.000000 UTC
+0       -       3916    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:54.000000 UTC
+0       -       3240    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:55.000000 UTC
+0       -       3368    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:55.000000 UTC
+0       -       4100    MicrosoftEdgeU  WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:56.000000 UTC
+0       -       4212    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:03:56.000000 UTC
+0       -       4668    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:57.000000 UTC
+0       -       4888    NisSrv.exe      -       2026-01-17 18:03:57.000000 UTC
+0       -       5288    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:03:58.000000 UTC
+0       -       7068    SearchIndexer.  WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:04:16.000000 UTC
+0       -       7152    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:04:19.000000 UTC
+0       -       5996    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:05:51.000000 UTC
+0       -       6956    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:05:52.000000 UTC
+0       -       2924    SgrmBroker.exe  -       2026-01-17 18:05:52.000000 UTC
+0       -       6808    svchost.exe     WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:05:53.000000 UTC
+0       -       7740    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:06:04.000000 UTC
+0       -       7468    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:06:26.000000 UTC
+0       -       2692    svchost.exe     NT AUTHORITY/LOCAL SERVICE      2026-01-17 18:06:27.000000 UTC
+0       -       3448    sshd.exe        WORKGROUP/DESKTOP-48SLQ6U$      2026-01-17 18:07:17.000000 UTC
+0       -       4256    sshd.exe        -       2026-01-17 18:07:17.000000 UTC
+0       -       6904    sshd.exe        WORKGROUP/dani  2026-01-17 18:07:19.000000 UTC
+0       -       5236    conhost.exe     -       2026-01-17 18:07:19.000000 UTC
+0       -       7508    cmd.exe WORKGROUP/dani  2026-01-17 18:07:19.000000 UTC
+0       -       5204    WUDFHost.exe    -       2026-01-17 18:08:30.000000 UTC
+0       -       764     svchost.exe     -       2026-01-17 18:09:46.000000 UTC
+1       -       628     csrss.exe       /SYSTEM 2026-01-17 18:03:50.000000 UTC
+1       -       704     winlogon.exe    /SYSTEM 2026-01-17 18:03:50.000000 UTC
+1       -       860     fontdrvhost.ex  -       2026-01-17 18:03:50.000000 UTC
+1       -       524     dwm.exe /SYSTEM 2026-01-17 18:03:50.000000 UTC
+1       -       412     sihost.exe      DESKTOP-48SLQ6U/dani    2026-01-17 18:03:56.000000 UTC
+1       -       3456    svchost.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:03:56.000000 UTC
+1       -       3760    svchost.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:03:56.000000 UTC
+1       -       2468    svchost.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:03:56.000000 UTC
+1       -       4120    taskhostw.exe   -       2026-01-17 18:03:56.000000 UTC
+1       -       4428    userinit.exe    -       2026-01-17 18:03:56.000000 UTC
+1       Console 4460    explorer.exe    DESKTOP-48SLQ6U/dani    2026-01-17 18:03:56.000000 UTC
+1       -       4636    svchost.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:03:57.000000 UTC
+1       -       1984    SearchHost.exe  -       2026-01-17 18:03:57.000000 UTC
+1       -       4308    StartMenuExper  DESKTOP-48SLQ6U/dani    2026-01-17 18:03:57.000000 UTC
+1       -       4116    Widgets.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:03:58.000000 UTC
+1       -       5144    RuntimeBroker.  DESKTOP-48SLQ6U/dani    2026-01-17 18:03:58.000000 UTC
+1       -       5224    RuntimeBroker.  DESKTOP-48SLQ6U/dani    2026-01-17 18:03:58.000000 UTC
+1       -       5420    svchost.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:03:58.000000 UTC
+1       -       5872    WidgetService.  DESKTOP-48SLQ6U/dani    2026-01-17 18:03:59.000000 UTC
+1       -       5512    dllhost.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:04:00.000000 UTC
+1       -       6716    ctfmon.exe      DESKTOP-48SLQ6U/dani    2026-01-17 18:04:03.000000 UTC
+1       -       6852    Taskmgr.exe     -       2026-01-17 18:04:03.000000 UTC
+1       -       7140    vlc.exe -       2026-01-17 18:04:19.000000 UTC
+1       -       6856    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:05:20.000000 UTC
+1       -       832     crashhelper.ex  DESKTOP-48SLQ6U/dani    2026-01-17 18:05:20.000000 UTC
+1       -       7136    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:05:20.000000 UTC
+1       -       6408    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:05:20.000000 UTC
+1       -       6212    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:05:21.000000 UTC
+1       -       3444    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:05:21.000000 UTC
+1       -       5692    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:05:21.000000 UTC
+1       -       6544    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:05:21.000000 UTC
+1       -       552     RuntimeBroker.  DESKTOP-48SLQ6U/dani    2026-01-17 18:05:22.000000 UTC
+1       -       2164    firefox.exe     -       2026-01-17 18:05:24.000000 UTC
+1       -       5328    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:05:24.000000 UTC
+1       -       6960    svchost.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:05:53.000000 UTC
+1       -       7536    ApplicationFra  DESKTOP-48SLQ6U/dani    2026-01-17 18:06:03.000000 UTC
+1       -       7692    svchost.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:06:04.000000 UTC
+1       -       5892    Taskmgr.exe     -       2026-01-17 18:06:47.000000 UTC
+1       -       7900    Taskmgr.exe     -       2026-01-17 18:07:02.000000 UTC
+1       -       7860    ShellExperienc  DESKTOP-48SLQ6U/dani    2026-01-17 18:07:56.000000 UTC
+1       -       3976    RuntimeBroker.  DESKTOP-48SLQ6U/dani    2026-01-17 18:07:56.000000 UTC
+1       -       7684    backgroundTask  DESKTOP-48SLQ6U/dani    2026-01-17 18:09:26.000000 UTC
+1       -       3364    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:13:47.000000 UTC
+1       -       4724    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:14:03.000000 UTC
+1       -       2612    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:15:43.000000 UTC
+1       -       7064    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:15:43.000000 UTC
+1       -       5412    firefox.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:15:43.000000 UTC
+1       -       1080    FESearchHost.e  DESKTOP-48SLQ6U/dani    2026-01-17 18:16:57.000000 UTC
+1       -       4292    Notepad.exe     DESKTOP-48SLQ6U/dani    2026-01-17 18:17:00.000000 UTC
+1       -       5028    FTK Imager.exe  DESKTOP-48SLQ6U/dani    2026-01-17 18:21:27.000000 UTC
+1       -       5860    Taskmgr.exe     -       2026-01-17 18:21:30.000000 UTC
+N/A     -       1936    MemCompression  -       2026-01-17 18:03:50.000000 UTC
+-       -       8236            -       N/A
