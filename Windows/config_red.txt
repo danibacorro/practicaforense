@@ -1,0 +1,27 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-48SLQ6U
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) 82574L Gigabit Network Connection
+   Physical Address. . . . . . . . . : 52-54-00-EC-D6-1D
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::59d9:cdcb:9f2d:2d0%2(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.122.58(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, January 17, 2026 7:03:51 PM
+   Lease Expires . . . . . . . . . . : Saturday, January 17, 2026 8:03:51 PM
+   Default Gateway . . . . . . . . . : 192.168.122.1
+   DHCP Server . . . . . . . . . . . : 192.168.122.1
+   DHCPv6 IAID . . . . . . . . . . . : 89281536
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-CD-84-B3-52-54-00-EC-D6-1D
+   DNS Servers . . . . . . . . . . . : 192.168.122.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled

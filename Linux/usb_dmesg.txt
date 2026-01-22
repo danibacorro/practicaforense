@@ -1,0 +1,41 @@
+[    0.813514] ACPI: bus type USB registered
+[    0.813756] usbcore: registered new interface driver usbfs
+[    0.813762] usbcore: registered new interface driver hub
+[    0.813771] usbcore: registered new device driver usb
+[    0.842007] xhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 1
+[    0.843251] xhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 2
+[    0.843254] xhci_hcd 0000:02:00.0: Host supports USB 3.0 SuperSpeed
+[    0.843326] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+[    0.843328] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.843329] usb usb1: Product: xHCI Host Controller
+[    0.843330] usb usb1: Manufacturer: Linux 6.12.57+deb13-amd64 xhci-hcd
+[    0.843331] usb usb1: SerialNumber: 0000:02:00.0
+[    0.843507] hub 1-0:1.0: USB hub found
+[    0.844265] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    0.844278] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.12
+[    0.844280] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.844281] usb usb2: Product: xHCI Host Controller
+[    0.844282] usb usb2: Manufacturer: Linux 6.12.57+deb13-amd64 xhci-hcd
+[    0.844283] usb usb2: SerialNumber: 0000:02:00.0
+[    0.844372] hub 2-0:1.0: USB hub found
+[    1.093383] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+[    1.235058] usb 1-1: New USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00
+[    1.235070] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=10
+[    1.235075] usb 1-1: Product: QEMU USB Tablet
+[    1.235079] usb 1-1: Manufacturer: QEMU
+[    1.235082] usb 1-1: SerialNumber: 28754-0000:00:02.1:00.0-1
+[    1.274947] usbcore: registered new interface driver usbhid
+[    1.274949] usbhid: USB HID core driver
+[    1.279251] input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:02.1/0000:02:00.0/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input4
+[    1.279304] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:02:00.0-1/input0
+[  208.458035] usb 2-3: new SuperSpeed USB device number 2 using xhci_hcd
+[  208.483566] usb 2-3: New USB device found, idVendor=0781, idProduct=5581, bcdDevice= 1.00
+[  208.483577] usb 2-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  208.483582] usb 2-3: Product:  SanDisk 3.2Gen1
+[  208.483585] usb 2-3: Manufacturer:  USB
+[  208.483588] usb 2-3: SerialNumber: 0101def86a61a64b1139385cf9ca04b26c45171be3dcc326d57dc91ad3927f2c2dd00000000000000000000024d90bafff9877008155810760b297d5
+[  208.533877] usb-storage 2-3:1.0: USB Mass Storage device detected
+[  208.535272] scsi host6: usb-storage 2-3:1.0
+[  208.535423] usbcore: registered new interface driver usb-storage
+[  208.545466] usbcore: registered new interface driver uas
+[  209.554193] scsi 6:0:0:0: Direct-Access      USB      SanDisk 3.2Gen1 1.00 PQ: 0 ANSI: 6

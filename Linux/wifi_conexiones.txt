@@ -1,0 +1,2 @@
+NAME  UUID                                  TYPE      DEVICE 
+lo    ea9c2f2d-a24f-4fd4-b7f0-ccfa4a940b2b  loopback  lo     

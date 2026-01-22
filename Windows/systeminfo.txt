@@ -1,0 +1,49 @@
+
+Host Name:                 DESKTOP-48SLQ6U
+OS Name:                   Microsoft Windows 11 Pro
+OS Version:                10.0.22621 N/A Build 22621
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          dani
+Registered Organization:   
+Product ID:                00330-80000-00000-AA090
+Original Install Date:     12/12/2025, 12:04:55 AM
+System Boot Time:          1/17/2026, 7:03:47 PM
+System Manufacturer:       QEMU
+System Model:              Standard PC (Q35 + ICH9, 2009)
+System Type:               x64-based PC
+Processor(s):              2 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 158 Stepping 13 GenuineIntel ~2592 Mhz
+                           [02]: Intel64 Family 6 Model 158 Stepping 13 GenuineIntel ~2592 Mhz
+BIOS Version:              Debian distribution of EDK II 2025.02-8, 5/13/2025
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              es;Spanish (Traditional Sort)
+Time Zone:                 (UTC+01:00) Brussels, Copenhagen, Madrid, Paris
+Total Physical Memory:     6,028 MB
+Available Physical Memory: 3,209 MB
+Virtual Memory: Max Size:  6,044 MB
+Virtual Memory: Available: 3,224 MB
+Virtual Memory: In Use:    2,820 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-48SLQ6U
+Hotfix(s):                 4 Hotfix(s) Installed.
+                           [01]: KB5020880
+                           [02]: KB5023327
+                           [03]: KB5019311
+                           [04]: KB5020487
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) 82574L Gigabit Network Connection
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.122.1
+                                 IP address(es)
+                                 [01]: 192.168.122.58
+                                 [02]: fe80::59d9:cdcb:9f2d:2d0
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+07:11 PM
+Sat 01/17/2026 

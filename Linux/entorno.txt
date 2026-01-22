@@ -1,0 +1,13 @@
+SHELL=/bin/bash
+PWD=/media/dani/haqueitos/Linux
+LOGNAME=root
+HOME=/root
+LANG=es_ES.UTF-8
+TERM=xterm-256color
+USER=root
+SHLVL=1
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+MAIL=/var/mail/root
+OLDPWD=/root
+_=/usr/bin/printenv
